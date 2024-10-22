@@ -1,5 +1,5 @@
 set(_AMENT_PACKAGE_NAME "realsense2_camera_msgs")
-set(realsense2_camera_msgs_VERSION "4.54.1")
+set(realsense2_camera_msgs_VERSION "4.55.1")
 set(realsense2_camera_msgs_MAINTAINER "LibRealSense ROS Team <librs.ros@intel.com>")
 set(realsense2_camera_msgs_BUILD_DEPENDS "builtin_interfaces" "std_msgs" "sensor_msgs")
 set(realsense2_camera_msgs_BUILDTOOL_DEPENDS "ament_cmake" "rosidl_default_generators")

@@ -1,0 +1,32 @@
+[0.013s] Invoking command in '/home/locobot/locobot_ws/build/create3_examples_msgs': /usr/bin/cmake /home/locobot/locobot_ws/src/create3_examples/create3_examples_msgs -DCMAKE_INSTALL_PREFIX=/home/locobot/locobot_ws/install/create3_examples_msgs
+[0.089s] -- The C compiler identification is GNU 11.4.0
+[0.173s] -- The CXX compiler identification is GNU 11.4.0
+[0.182s] -- Detecting C compiler ABI info
+[0.275s] -- Detecting C compiler ABI info - done
+[0.289s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.289s] -- Detecting C compile features
+[0.290s] -- Detecting C compile features - done
+[0.294s] -- Detecting CXX compiler ABI info
+[0.403s] -- Detecting CXX compiler ABI info - done
+[0.419s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.420s] -- Detecting CXX compile features
+[0.421s] -- Detecting CXX compile features - done
+[0.437s] [31mCMake Error at CMakeLists.txt:13 (find_package):
+[0.437s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.438s]   has asked CMake to find a package configuration file provided by
+[0.438s]   "ament_cmake", but CMake did not find one.
+[0.438s] 
+[0.438s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.438s]   any of the following names:
+[0.438s] 
+[0.438s]     ament_cmakeConfig.cmake
+[0.438s]     ament_cmake-config.cmake
+[0.438s] 
+[0.438s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.439s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.439s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.439s]   has been installed.
+[0.439s] 
+[0.439s] [0m
+[0.439s] -- Configuring incomplete, errors occurred!
+[0.439s] See also "/home/locobot/locobot_ws/build/create3_examples_msgs/CMakeFiles/CMakeOutput.log".

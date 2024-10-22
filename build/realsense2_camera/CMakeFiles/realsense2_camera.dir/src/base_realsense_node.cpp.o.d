@@ -247,6 +247,10 @@ CMakeFiles/realsense2_camera.dir/src/base_realsense_node.cpp.o: \
  /opt/ros/humble/include/librealsense2/hpp/rs_frame.hpp \
  /opt/ros/humble/include/librealsense2/hpp/rs_processing.hpp \
  /opt/ros/humble/include/librealsense2/hpp/rs_options.hpp \
+ /opt/ros/humble/include/librealsense2/h/rs_types.h \
+ /usr/include/c++/11/cstring /usr/include/string.h /usr/include/strings.h \
+ /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+ /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
  /opt/ros/humble/include/librealsense2/hpp/rs_device.hpp \
  /opt/ros/humble/include/librealsense2/hpp/rs_frame.hpp \
  /opt/ros/humble/include/librealsense2/hpp/rs_processing.hpp \
@@ -331,9 +335,6 @@ CMakeFiles/realsense2_camera.dir/src/base_realsense_node.cpp.o: \
  /opt/ros/humble/include/rmw/rmw/types.h \
  /opt/ros/humble/include/rcutils/rcutils/logging.h \
  /opt/ros/humble/include/rcutils/rcutils/error_handling.h \
- /usr/include/string.h /usr/include/strings.h \
- /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
- /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
  /opt/ros/humble/include/rcutils/rcutils/snprintf.h \
  /opt/ros/humble/include/rcutils/rcutils/time.h \
  /opt/ros/humble/include/rcutils/rcutils/types.h \
@@ -466,7 +467,6 @@ CMakeFiles/realsense2_camera.dir/src/base_realsense_node.cpp.o: \
  /opt/ros/humble/include/rclcpp/rclcpp/subscription_base.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/allocator/allocator_common.hpp \
- /usr/include/c++/11/cstring \
  /opt/ros/humble/include/rclcpp/rclcpp/allocator/allocator_deleter.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/detail/subscription_callback_type_helper.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/message_info.hpp \

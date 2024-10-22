@@ -248,7 +248,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/realsense2_camera_msgs-4.54.1-py3.10.egg-info" TYPE DIRECTORY FILES "/home/locobot/locobot_ws/build/realsense2_camera_msgs/ament_cmake_python/realsense2_camera_msgs/realsense2_camera_msgs.egg-info/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/realsense2_camera_msgs-4.55.1-py3.10.egg-info" TYPE DIRECTORY FILES "/home/locobot/locobot_ws/build/realsense2_camera_msgs/ament_cmake_python/realsense2_camera_msgs/realsense2_camera_msgs.egg-info/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

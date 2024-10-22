@@ -1,0 +1,349 @@
+[0.035s] Invoking command in '/home/locobot/locobot_ws/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/locobot_ws/install/yolov8_ros:/home/locobot/locobot_ws/install/locobot_move:/home/locobot/locobot_ws/install/detection_ros:/home/locobot/locobot_ws/install/create3_teleop:/home/locobot/locobot_ws/install/create3_examples_py:/home/locobot/interbotix_ws/install/interbotix_xslocobot_control:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake /home/locobot/locobot_ws/src/realsense-ros/realsense2_camera_msgs -DCMAKE_INSTALL_PREFIX=/home/locobot/locobot_ws/install/realsense2_camera_msgs
+[0.060s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.339s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.562s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.591s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.619s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.746s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.849s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.902s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[0.972s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.776s] -- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[1.786s] -- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[1.796s] -- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[1.806s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.351s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.077s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.126s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.135s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.262s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.269s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.269s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.269s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.355s] -- Found PythonExtra: .so  
+[3.897s] -- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[3.908s] -- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[3.938s] -- Configuring done
+[4.051s] -- Generating done
+[4.055s] -- Build files have been written to: /home/locobot/locobot_ws/build/realsense2_camera_msgs
+[4.085s] Invoked command in '/home/locobot/locobot_ws/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/locobot_ws/install/yolov8_ros:/home/locobot/locobot_ws/install/locobot_move:/home/locobot/locobot_ws/install/detection_ros:/home/locobot/locobot_ws/install/create3_teleop:/home/locobot/locobot_ws/install/create3_examples_py:/home/locobot/interbotix_ws/install/interbotix_xslocobot_control:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake /home/locobot/locobot_ws/src/realsense-ros/realsense2_camera_msgs -DCMAKE_INSTALL_PREFIX=/home/locobot/locobot_ws/install/realsense2_camera_msgs
+[4.086s] Invoking command in '/home/locobot/locobot_ws/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/locobot_ws/install/yolov8_ros:/home/locobot/locobot_ws/install/locobot_move:/home/locobot/locobot_ws/install/detection_ros:/home/locobot/locobot_ws/install/create3_teleop:/home/locobot/locobot_ws/install/create3_examples_py:/home/locobot/interbotix_ws/install/interbotix_xslocobot_control:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/locobot/locobot_ws/build/realsense2_camera_msgs -- -j4 -l4
+[4.294s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.312s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.389s] [  3%] Built target ament_cmake_python_copy_realsense2_camera_msgs
+[5.353s] running egg_info
+[5.354s] creating realsense2_camera_msgs.egg-info
+[5.355s] writing realsense2_camera_msgs.egg-info/PKG-INFO
+[5.355s] writing dependency_links to realsense2_camera_msgs.egg-info/dependency_links.txt
+[5.355s] writing top-level names to realsense2_camera_msgs.egg-info/top_level.txt
+[5.355s] writing manifest file 'realsense2_camera_msgs.egg-info/SOURCES.txt'
+[5.379s] reading manifest file 'realsense2_camera_msgs.egg-info/SOURCES.txt'
+[5.380s] writing manifest file 'realsense2_camera_msgs.egg-info/SOURCES.txt'
+[5.509s] [  3%] Built target ament_cmake_python_build_realsense2_camera_msgs_egg
+[7.069s] [  4%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/imu_info__functions.c.o[0m
+[7.070s] [  6%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/metadata__functions.c.o[0m
+[7.077s] [  7%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/extrinsics__functions.c.o[0m
+[7.309s] [  9%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/rgbd__functions.c.o[0m
+[7.315s] [ 11%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/device_info__functions.c.o[0m
+[7.660s] [ 12%] [32m[1mLinking C shared library librealsense2_camera_msgs__rosidl_generator_c.so[0m
+[7.746s] [ 12%] Built target realsense2_camera_msgs__cpp
+[7.801s] [ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[7.829s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.830s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.882s] [ 17%] Built target realsense2_camera_msgs__rosidl_generator_c
+[8.016s] [ 19%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[10.007s] [ 20%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/realsense2_camera_msgs/msg/detail/imu_info__type_support.cpp.o[0m
+[10.220s] [ 22%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/realsense2_camera_msgs/msg/imu_info__type_support.cpp.o[0m
+[10.918s] [ 23%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/msg/detail/imu_info__type_support_c.cpp.o[0m
+[11.054s] [ 25%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/realsense2_camera_msgs/msg/detail/dds_fastrtps/imu_info__type_support.cpp.o[0m
+[11.095s] [ 26%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/realsense2_camera_msgs/msg/extrinsics__type_support.cpp.o[0m
+[11.469s] [ 28%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/realsense2_camera_msgs/msg/detail/extrinsics__type_support.cpp.o[0m
+[12.026s] [ 30%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/msg/detail/extrinsics__type_support_c.cpp.o[0m
+[12.036s] [ 31%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/realsense2_camera_msgs/msg/metadata__type_support.cpp.o[0m
+[12.414s] [ 33%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/realsense2_camera_msgs/msg/detail/dds_fastrtps/extrinsics__type_support.cpp.o[0m
+[12.848s] [ 34%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/msg/detail/metadata__type_support_c.cpp.o[0m
+[13.012s] [ 36%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/realsense2_camera_msgs/msg/rgbd__type_support.cpp.o[0m
+[13.300s] [ 38%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/realsense2_camera_msgs/msg/detail/metadata__type_support.cpp.o[0m
+[14.291s] [ 39%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/realsense2_camera_msgs/msg/detail/dds_fastrtps/metadata__type_support.cpp.o[0m
+[14.325s] [ 41%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/msg/detail/rgbd__type_support_c.cpp.o[0m
+[14.342s] [ 42%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/realsense2_camera_msgs/srv/device_info__type_support.cpp.o[0m
+[15.112s] [ 44%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/realsense2_camera_msgs/msg/detail/rgbd__type_support.cpp.o[0m
+[15.134s] [ 46%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/srv/detail/device_info__type_support_c.cpp.o[0m
+[15.688s] [ 47%] [32m[1mLinking CXX shared library librealsense2_camera_msgs__rosidl_typesupport_cpp.so[0m
+[15.910s] [ 47%] Built target realsense2_camera_msgs__rosidl_typesupport_cpp
+[15.956s] [ 49%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/realsense2_camera_msgs/msg/detail/dds_fastrtps/rgbd__type_support.cpp.o[0m
+[16.305s] [ 50%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[16.306s] [ 52%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/realsense2_camera_msgs/srv/detail/device_info__type_support.cpp.o[0m
+[16.557s] [ 53%] [32m[1mLinking CXX shared library librealsense2_camera_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[17.017s] [ 53%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_c
+[17.083s] [ 55%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[17.769s] [ 57%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/realsense2_camera_msgs/srv/detail/dds_fastrtps/device_info__type_support.cpp.o[0m
+[17.892s] [ 58%] [32m[1mLinking CXX shared library librealsense2_camera_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[18.257s] [ 58%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_cpp
+[18.555s] [ 60%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/realsense2_camera_msgs/msg/detail/imu_info__type_support.c.o[0m
+[18.593s] [ 61%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/realsense2_camera_msgs/msg/detail/extrinsics__type_support.c.o[0m
+[18.627s] [ 63%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/realsense2_camera_msgs/msg/imu_info__type_support.cpp.o[0m
+[18.689s] [ 65%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/realsense2_camera_msgs/msg/detail/metadata__type_support.c.o[0m
+[18.745s] [ 66%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/realsense2_camera_msgs/msg/detail/rgbd__type_support.c.o[0m
+[18.771s] [ 68%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/realsense2_camera_msgs/msg/extrinsics__type_support.cpp.o[0m
+[18.794s] [ 69%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/realsense2_camera_msgs/msg/metadata__type_support.cpp.o[0m
+[18.863s] [ 71%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/realsense2_camera_msgs/srv/detail/device_info__type_support.c.o[0m
+[18.900s] [ 73%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/realsense2_camera_msgs/msg/rgbd__type_support.cpp.o[0m
+[18.913s] [ 74%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/realsense2_camera_msgs/srv/device_info__type_support.cpp.o[0m
+[18.934s] [ 76%] [32m[1mLinking CXX shared library librealsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[18.996s] [ 77%] [32m[1mLinking C shared library librealsense2_camera_msgs__rosidl_typesupport_introspection_c.so[0m
+[19.066s] [ 79%] [32m[1mLinking CXX shared library librealsense2_camera_msgs__rosidl_typesupport_c.so[0m
+[19.159s] [ 79%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_c
+[19.217s] [ 79%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp
+[19.228s] [ 79%] Built target realsense2_camera_msgs__rosidl_typesupport_c
+[19.260s] [ 79%] Built target realsense2_camera_msgs
+[19.306s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[20.989s] [ 80%] Built target realsense2_camera_msgs__py
+[21.025s] [ 82%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/realsense2_camera_msgs/msg/_imu_info_s.c.o[0m
+[21.041s] [ 84%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/realsense2_camera_msgs/msg/_extrinsics_s.c.o[0m
+[21.054s] [ 85%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/realsense2_camera_msgs/msg/_metadata_s.c.o[0m
+[21.075s] [ 87%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/realsense2_camera_msgs/msg/_rgbd_s.c.o[0m
+[21.340s] [ 88%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/realsense2_camera_msgs/srv/_device_info_s.c.o[0m
+[21.521s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/realsense2_camera_msgs/librealsense2_camera_msgs__rosidl_generator_py.so[0m
+[21.588s] [ 90%] Built target realsense2_camera_msgs__rosidl_generator_py
+[21.626s] [ 92%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[21.693s] [ 93%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[21.705s] [ 95%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[21.929s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[21.969s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[21.975s] [100%] [32m[1mLinking C shared library rosidl_generator_py/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[21.997s] [100%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_c__pyext
+[22.062s] [100%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_c__pyext
+[22.133s] [100%] Built target realsense2_camera_msgs__rosidl_typesupport_c__pyext
+[22.159s] Invoked command in '/home/locobot/locobot_ws/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/locobot_ws/install/yolov8_ros:/home/locobot/locobot_ws/install/locobot_move:/home/locobot/locobot_ws/install/detection_ros:/home/locobot/locobot_ws/install/create3_teleop:/home/locobot/locobot_ws/install/create3_examples_py:/home/locobot/interbotix_ws/install/interbotix_xslocobot_control:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/locobot/locobot_ws/build/realsense2_camera_msgs -- -j4 -l4
+[22.698s] Invoking command in '/home/locobot/locobot_ws/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/locobot_ws/install/yolov8_ros:/home/locobot/locobot_ws/install/locobot_move:/home/locobot/locobot_ws/install/detection_ros:/home/locobot/locobot_ws/install/create3_teleop:/home/locobot/locobot_ws/install/create3_examples_py:/home/locobot/interbotix_ws/install/interbotix_xslocobot_control:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --install /home/locobot/locobot_ws/build/realsense2_camera_msgs
+[22.711s] -- Install configuration: ""
+[22.711s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/share/ament_index/resource_index/rosidl_interfaces/realsense2_camera_msgs
+[22.711s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs
+[22.711s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv
+[22.711s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/device_info.h
+[22.712s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail
+[22.712s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__type_support.h
+[22.712s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__struct.h
+[22.712s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__functions.c
+[22.712s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__functions.h
+[22.712s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg
+[22.713s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail
+[22.713s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__struct.h
+[22.713s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__functions.h
+[22.713s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__struct.h
+[22.713s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__functions.h
+[22.713s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__type_support.h
+[22.713s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__functions.h
+[22.713s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__functions.c
+[22.714s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__type_support.h
+[22.714s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__struct.h
+[22.714s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__functions.c
+[22.714s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__functions.c
+[22.714s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__type_support.h
+[22.714s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__functions.c
+[22.714s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__struct.h
+[22.715s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__functions.h
+[22.716s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__type_support.h
+[22.716s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rgbd.h
+[22.716s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/metadata.h
+[22.716s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/extrinsics.h
+[22.717s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/imu_info.h
+[22.717s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rosidl_generator_c__visibility_control.h
+[22.717s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/library_path.sh
+[22.717s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/library_path.dsv
+[22.717s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_generator_c.so
+[22.718s] -- Set runtime path of "/home/locobot/locobot_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_generator_c.so" to ""
+[22.718s] -- Up-to-date: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs
+[22.718s] -- Up-to-date: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv
+[22.718s] -- Up-to-date: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail
+[22.718s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__rosidl_typesupport_fastrtps_c.h
+[22.718s] -- Up-to-date: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg
+[22.718s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[22.719s] -- Up-to-date: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail
+[22.719s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_c.h
+[22.719s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_fastrtps_c.h
+[22.719s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_c.h
+[22.719s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__rosidl_typesupport_fastrtps_c.h
+[22.719s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_fastrtps_c.so
+[22.720s] -- Set runtime path of "/home/locobot/locobot_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[22.720s] -- Up-to-date: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs
+[22.720s] -- Up-to-date: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv
+[22.721s] -- Up-to-date: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail
+[22.722s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__rosidl_typesupport_introspection_c.h
+[22.722s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__type_support.c
+[22.722s] -- Up-to-date: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg
+[22.722s] -- Up-to-date: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail
+[22.722s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_introspection_c.h
+[22.722s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__type_support.c
+[22.722s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_c.h
+[22.722s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__type_support.c
+[22.723s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__rosidl_typesupport_introspection_c.h
+[22.723s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__type_support.c
+[22.723s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_c.h
+[22.723s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__type_support.c
+[22.723s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[22.723s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_introspection_c.so
+[22.723s] -- Set runtime path of "/home/locobot/locobot_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_introspection_c.so" to ""
+[22.723s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_c.so
+[22.723s] -- Set runtime path of "/home/locobot/locobot_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_c.so" to ""
+[22.724s] -- Up-to-date: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs
+[22.724s] -- Up-to-date: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv
+[22.724s] -- Up-to-date: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail
+[22.724s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__builder.hpp
+[22.724s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__traits.hpp
+[22.724s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__struct.hpp
+[22.724s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/device_info.hpp
+[22.724s] -- Up-to-date: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg
+[22.724s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/imu_info.hpp
+[22.724s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rgbd.hpp
+[22.725s] -- Up-to-date: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail
+[22.725s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__traits.hpp
+[22.725s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__builder.hpp
+[22.725s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__struct.hpp
+[22.725s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__builder.hpp
+[22.725s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__struct.hpp
+[22.725s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__builder.hpp
+[22.725s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__builder.hpp
+[22.726s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__traits.hpp
+[22.726s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__struct.hpp
+[22.726s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__struct.hpp
+[22.726s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__traits.hpp
+[22.726s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__traits.hpp
+[22.726s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/metadata.hpp
+[22.726s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/extrinsics.hpp
+[22.726s] -- Up-to-date: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs
+[22.726s] -- Up-to-date: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv
+[22.727s] -- Up-to-date: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail
+[22.727s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/dds_fastrtps
+[22.727s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__rosidl_typesupport_fastrtps_cpp.hpp
+[22.727s] -- Up-to-date: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg
+[22.727s] -- Up-to-date: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail
+[22.727s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_cpp.hpp
+[22.727s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_fastrtps_cpp.hpp
+[22.727s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/dds_fastrtps
+[22.727s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_cpp.hpp
+[22.728s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__rosidl_typesupport_fastrtps_cpp.hpp
+[22.728s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[22.728s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.so
+[22.728s] -- Set runtime path of "/home/locobot/locobot_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[22.728s] -- Up-to-date: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs
+[22.728s] -- Up-to-date: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv
+[22.728s] -- Up-to-date: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail
+[22.728s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__rosidl_typesupport_introspection_cpp.hpp
+[22.728s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__type_support.cpp
+[22.729s] -- Up-to-date: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg
+[22.730s] -- Up-to-date: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail
+[22.730s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_introspection_cpp.hpp
+[22.730s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__type_support.cpp
+[22.730s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__type_support.cpp
+[22.730s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__type_support.cpp
+[22.730s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__type_support.cpp
+[22.730s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__rosidl_typesupport_introspection_cpp.hpp
+[22.730s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_cpp.hpp
+[22.730s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_cpp.hpp
+[22.731s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_introspection_cpp.so
+[22.731s] -- Set runtime path of "/home/locobot/locobot_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[22.732s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_cpp.so
+[22.732s] -- Set runtime path of "/home/locobot/locobot_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_cpp.so" to ""
+[22.732s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/pythonpath.sh
+[22.733s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/pythonpath.dsv
+[22.733s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs-4.55.1-py3.10.egg-info
+[22.734s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs-4.55.1-py3.10.egg-info/dependency_links.txt
+[22.734s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs-4.55.1-py3.10.egg-info/top_level.txt
+[22.734s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs-4.55.1-py3.10.egg-info/SOURCES.txt
+[22.735s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs-4.55.1-py3.10.egg-info/PKG-INFO
+[22.735s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs
+[22.735s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/librealsense2_camera_msgs__rosidl_generator_py.so
+[22.736s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[22.736s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/__init__.py
+[22.736s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[22.737s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/srv
+[22.737s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/srv/__init__.py
+[22.737s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/srv/_device_info.py
+[22.738s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/srv/_device_info_s.c
+[22.738s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_c.c
+[22.738s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[22.739s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg
+[22.739s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_imu_info.py
+[22.739s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/__init__.py
+[22.740s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_rgbd.py
+[22.740s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_imu_info_s.c
+[22.740s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_extrinsics.py
+[22.741s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_extrinsics_s.c
+[22.741s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_rgbd_s.c
+[22.742s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_metadata_s.c
+[22.742s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_metadata.py
+[22.742s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[22.743s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[22.821s] Listing '/home/locobot/locobot_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs'...
+[22.821s] Compiling '/home/locobot/locobot_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/__init__.py'...
+[22.821s] Listing '/home/locobot/locobot_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg'...
+[22.821s] Compiling '/home/locobot/locobot_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/__init__.py'...
+[22.821s] Compiling '/home/locobot/locobot_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_extrinsics.py'...
+[22.822s] Compiling '/home/locobot/locobot_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_imu_info.py'...
+[22.822s] Compiling '/home/locobot/locobot_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_metadata.py'...
+[22.822s] Compiling '/home/locobot/locobot_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_rgbd.py'...
+[22.822s] Listing '/home/locobot/locobot_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/srv'...
+[22.822s] Compiling '/home/locobot/locobot_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/srv/__init__.py'...
+[22.822s] Compiling '/home/locobot/locobot_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/srv/_device_info.py'...
+[22.832s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[22.833s] -- Set runtime path of "/home/locobot/locobot_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[22.833s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[22.834s] -- Set runtime path of "/home/locobot/locobot_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[22.835s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[22.835s] -- Set runtime path of "/home/locobot/locobot_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[22.836s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_generator_py.so
+[22.836s] -- Set runtime path of "/home/locobot/locobot_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_generator_py.so" to ""
+[22.837s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/IMUInfo.idl
+[22.837s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Extrinsics.idl
+[22.838s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Metadata.idl
+[22.838s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/RGBD.idl
+[22.839s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/DeviceInfo.idl
+[22.840s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/IMUInfo.msg
+[22.841s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Extrinsics.msg
+[22.841s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Metadata.msg
+[22.841s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/RGBD.msg
+[22.842s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/DeviceInfo.srv
+[22.842s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/DeviceInfo_Request.msg
+[22.843s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/DeviceInfo_Response.msg
+[22.843s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/share/ament_index/resource_index/package_run_dependencies/realsense2_camera_msgs
+[22.844s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/share/ament_index/resource_index/parent_prefix_path/realsense2_camera_msgs
+[22.844s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/ament_prefix_path.sh
+[22.845s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/ament_prefix_path.dsv
+[22.845s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/path.sh
+[22.846s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/path.dsv
+[22.846s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/local_setup.bash
+[22.847s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/local_setup.sh
+[22.847s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/local_setup.zsh
+[22.848s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/local_setup.dsv
+[22.848s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.dsv
+[22.848s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/share/ament_index/resource_index/packages/realsense2_camera_msgs
+[22.849s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_generator_cExport.cmake
+[22.857s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_generator_cExport-noconfig.cmake
+[22.858s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[22.858s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[22.859s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_introspection_cExport.cmake
+[22.859s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[22.860s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_cExport.cmake
+[22.861s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[22.861s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_generator_cppExport.cmake
+[22.862s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[22.862s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[22.863s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[22.863s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[22.864s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_cppExport.cmake
+[22.864s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[22.865s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_generator_pyExport.cmake
+[22.865s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_generator_pyExport-noconfig.cmake
+[22.866s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/rosidl_cmake-extras.cmake
+[22.866s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[22.866s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[22.867s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[22.868s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[22.868s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[22.869s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[22.869s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgsConfig.cmake
+[22.870s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgsConfig-version.cmake
+[22.870s] -- Installing: /home/locobot/locobot_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.xml
+[22.880s] Invoked command in '/home/locobot/locobot_ws/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/locobot_ws/install/yolov8_ros:/home/locobot/locobot_ws/install/locobot_move:/home/locobot/locobot_ws/install/detection_ros:/home/locobot/locobot_ws/install/create3_teleop:/home/locobot/locobot_ws/install/create3_examples_py:/home/locobot/interbotix_ws/install/interbotix_xslocobot_control:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --install /home/locobot/locobot_ws/build/realsense2_camera_msgs

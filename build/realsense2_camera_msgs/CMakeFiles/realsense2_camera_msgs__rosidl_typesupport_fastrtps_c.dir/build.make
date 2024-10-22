@@ -169,6 +169,7 @@ rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/msg/detail/imu_info__rosidl
 rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_fastrtps_c.h: /opt/ros/humble/share/geometry_msgs/msg/TwistWithCovarianceStamped.idl
 rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_fastrtps_c.h: /opt/ros/humble/share/geometry_msgs/msg/Vector3.idl
 rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_fastrtps_c.h: /opt/ros/humble/share/geometry_msgs/msg/Vector3Stamped.idl
+rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_fastrtps_c.h: /opt/ros/humble/share/geometry_msgs/msg/VelocityStamped.idl
 rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_fastrtps_c.h: /opt/ros/humble/share/geometry_msgs/msg/Wrench.idl
 rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_fastrtps_c.h: /opt/ros/humble/share/geometry_msgs/msg/WrenchStamped.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/locobot/locobot_ws/build/realsense2_camera_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C type support for eProsima Fast-RTPS"

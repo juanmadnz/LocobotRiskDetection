@@ -1,0 +1,1 @@
+Invoking command in '/home/locobot/locobot_ws/build/create3_examples_msgs': /usr/bin/cmake /home/locobot/locobot_ws/src/create3_examples/create3_examples_msgs -DCMAKE_INSTALL_PREFIX=/home/locobot/locobot_ws/install/create3_examples_msgs

@@ -1,0 +1,49 @@
+[1.257s] Invoking command in '/home/locobot/locobot_ws/src/yolov8_ros/yolov8_ros': PYTHONPATH=/home/locobot/locobot_ws/build/yolov8_ros/prefix_override:/home/locobot/locobot_ws/install/yolov8_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/yolov8_ros build --build-base /home/locobot/locobot_ws/build/yolov8_ros/build install --record /home/locobot/locobot_ws/build/yolov8_ros/install.log --single-version-externally-managed install_data
+[1.711s] running egg_info
+[1.713s] creating ../../../build/yolov8_ros/yolov8_ros.egg-info
+[1.713s] writing ../../../build/yolov8_ros/yolov8_ros.egg-info/PKG-INFO
+[1.714s] writing dependency_links to ../../../build/yolov8_ros/yolov8_ros.egg-info/dependency_links.txt
+[1.715s] writing entry points to ../../../build/yolov8_ros/yolov8_ros.egg-info/entry_points.txt
+[1.716s] writing requirements to ../../../build/yolov8_ros/yolov8_ros.egg-info/requires.txt
+[1.716s] writing top-level names to ../../../build/yolov8_ros/yolov8_ros.egg-info/top_level.txt
+[1.717s] writing manifest file '../../../build/yolov8_ros/yolov8_ros.egg-info/SOURCES.txt'
+[1.720s] reading manifest file '../../../build/yolov8_ros/yolov8_ros.egg-info/SOURCES.txt'
+[1.721s] writing manifest file '../../../build/yolov8_ros/yolov8_ros.egg-info/SOURCES.txt'
+[1.722s] running build
+[1.722s] running build_py
+[1.722s] creating /home/locobot/locobot_ws/build/yolov8_ros/build
+[1.723s] creating /home/locobot/locobot_ws/build/yolov8_ros/build/lib
+[1.723s] creating /home/locobot/locobot_ws/build/yolov8_ros/build/lib/yolov8_ros
+[1.723s] copying yolov8_ros/debug_node.py -> /home/locobot/locobot_ws/build/yolov8_ros/build/lib/yolov8_ros
+[1.729s] copying yolov8_ros/__init__.py -> /home/locobot/locobot_ws/build/yolov8_ros/build/lib/yolov8_ros
+[1.730s] copying yolov8_ros/detect_3d_node.py -> /home/locobot/locobot_ws/build/yolov8_ros/build/lib/yolov8_ros
+[1.730s] copying yolov8_ros/yolov8_node.py -> /home/locobot/locobot_ws/build/yolov8_ros/build/lib/yolov8_ros
+[1.731s] copying yolov8_ros/tracking_node.py -> /home/locobot/locobot_ws/build/yolov8_ros/build/lib/yolov8_ros
+[1.731s] running install
+[1.732s] running install_lib
+[1.734s] creating /home/locobot/locobot_ws/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros
+[1.734s] copying /home/locobot/locobot_ws/build/yolov8_ros/build/lib/yolov8_ros/debug_node.py -> /home/locobot/locobot_ws/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros
+[1.734s] copying /home/locobot/locobot_ws/build/yolov8_ros/build/lib/yolov8_ros/__init__.py -> /home/locobot/locobot_ws/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros
+[1.735s] copying /home/locobot/locobot_ws/build/yolov8_ros/build/lib/yolov8_ros/detect_3d_node.py -> /home/locobot/locobot_ws/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros
+[1.735s] copying /home/locobot/locobot_ws/build/yolov8_ros/build/lib/yolov8_ros/yolov8_node.py -> /home/locobot/locobot_ws/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros
+[1.735s] copying /home/locobot/locobot_ws/build/yolov8_ros/build/lib/yolov8_ros/tracking_node.py -> /home/locobot/locobot_ws/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros
+[1.737s] byte-compiling /home/locobot/locobot_ws/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros/debug_node.py to debug_node.cpython-310.pyc
+[1.740s] byte-compiling /home/locobot/locobot_ws/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros/__init__.py to __init__.cpython-310.pyc
+[1.741s] byte-compiling /home/locobot/locobot_ws/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros/detect_3d_node.py to detect_3d_node.cpython-310.pyc
+[1.744s] byte-compiling /home/locobot/locobot_ws/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros/yolov8_node.py to yolov8_node.cpython-310.pyc
+[1.746s] byte-compiling /home/locobot/locobot_ws/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros/tracking_node.py to tracking_node.cpython-310.pyc
+[1.748s] running install_data
+[1.749s] creating /home/locobot/locobot_ws/install/yolov8_ros/share/ament_index
+[1.749s] creating /home/locobot/locobot_ws/install/yolov8_ros/share/ament_index/resource_index
+[1.749s] creating /home/locobot/locobot_ws/install/yolov8_ros/share/ament_index/resource_index/packages
+[1.750s] copying resource/yolov8_ros -> /home/locobot/locobot_ws/install/yolov8_ros/share/ament_index/resource_index/packages
+[1.750s] copying package.xml -> /home/locobot/locobot_ws/install/yolov8_ros/share/yolov8_ros
+[1.750s] running install_egg_info
+[1.753s] Copying ../../../build/yolov8_ros/yolov8_ros.egg-info to /home/locobot/locobot_ws/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros-0.0.0-py3.10.egg-info
+[1.754s] running install_scripts
+[1.786s] Installing debug_node script to /home/locobot/locobot_ws/install/yolov8_ros/lib/yolov8_ros
+[1.786s] Installing detect_3d_node script to /home/locobot/locobot_ws/install/yolov8_ros/lib/yolov8_ros
+[1.786s] Installing tracking_node script to /home/locobot/locobot_ws/install/yolov8_ros/lib/yolov8_ros
+[1.786s] Installing yolov8_node script to /home/locobot/locobot_ws/install/yolov8_ros/lib/yolov8_ros
+[1.787s] writing list of installed files to '/home/locobot/locobot_ws/build/yolov8_ros/install.log'
+[1.832s] Invoked command in '/home/locobot/locobot_ws/src/yolov8_ros/yolov8_ros' returned '0': PYTHONPATH=/home/locobot/locobot_ws/build/yolov8_ros/prefix_override:/home/locobot/locobot_ws/install/yolov8_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/yolov8_ros build --build-base /home/locobot/locobot_ws/build/yolov8_ros/build install --record /home/locobot/locobot_ws/build/yolov8_ros/install.log --single-version-externally-managed install_data

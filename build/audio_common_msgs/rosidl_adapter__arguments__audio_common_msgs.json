@@ -1,0 +1,10 @@
+{
+  "package_name": "audio_common_msgs",
+  "non_idl_tuples": [
+    "/home/locobot/locobot_ws/src/audio_common/audio_common_msgs:msg/AudioData.msg",
+    "/home/locobot/locobot_ws/src/audio_common/audio_common_msgs:msg/AudioInfo.msg",
+    "/home/locobot/locobot_ws/src/audio_common/audio_common_msgs:msg/Audio.msg",
+    "/home/locobot/locobot_ws/src/audio_common/audio_common_msgs:msg/AudioStamped.msg",
+    "/home/locobot/locobot_ws/src/audio_common/audio_common_msgs:action/TTS.action"
+  ]
+}

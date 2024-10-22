@@ -643,6 +643,7 @@ CMakeFiles/realsense2_camera.dir/src/ros_utils.cpp.o: \
  /opt/ros/humble/include/librealsense2/hpp/rs_frame.hpp \
  /opt/ros/humble/include/librealsense2/hpp/rs_processing.hpp \
  /opt/ros/humble/include/librealsense2/hpp/rs_options.hpp \
+ /opt/ros/humble/include/librealsense2/h/rs_types.h \
  /opt/ros/humble/include/librealsense2/hpp/rs_device.hpp \
  /opt/ros/humble/include/librealsense2/hpp/rs_frame.hpp \
  /opt/ros/humble/include/librealsense2/hpp/rs_processing.hpp \

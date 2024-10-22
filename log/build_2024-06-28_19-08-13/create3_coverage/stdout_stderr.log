@@ -1,0 +1,3 @@
+[ 83%] Built target create3_coverage_core
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/create3_coverage.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

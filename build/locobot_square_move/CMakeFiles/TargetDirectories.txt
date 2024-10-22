@@ -1,9 +1,0 @@
-/home/locobot/locobot_ws/build/locobot_square_move/CMakeFiles/uninstall.dir
-/home/locobot/locobot_ws/build/locobot_square_move/CMakeFiles/locobot_square_move_uninstall.dir
-/home/locobot/locobot_ws/build/locobot_square_move/CMakeFiles/test.dir
-/home/locobot/locobot_ws/build/locobot_square_move/CMakeFiles/edit_cache.dir
-/home/locobot/locobot_ws/build/locobot_square_move/CMakeFiles/rebuild_cache.dir
-/home/locobot/locobot_ws/build/locobot_square_move/CMakeFiles/list_install_components.dir
-/home/locobot/locobot_ws/build/locobot_square_move/CMakeFiles/install.dir
-/home/locobot/locobot_ws/build/locobot_square_move/CMakeFiles/install/local.dir
-/home/locobot/locobot_ws/build/locobot_square_move/CMakeFiles/install/strip.dir

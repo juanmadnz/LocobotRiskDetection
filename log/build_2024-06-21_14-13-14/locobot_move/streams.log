@@ -1,0 +1,37 @@
+[1.812s] Invoking command in '/home/locobot/locobot_ws/src/locobot_move': PYTHONPATH=/home/locobot/locobot_ws/build/locobot_move/prefix_override:/home/locobot/locobot_ws/install/locobot_move/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/locobot_move build --build-base /home/locobot/locobot_ws/build/locobot_move/build install --record /home/locobot/locobot_ws/build/locobot_move/install.log --single-version-externally-managed install_data
+[2.399s] running egg_info
+[2.400s] creating ../../build/locobot_move/locobot_move.egg-info
+[2.410s] writing ../../build/locobot_move/locobot_move.egg-info/PKG-INFO
+[2.411s] writing dependency_links to ../../build/locobot_move/locobot_move.egg-info/dependency_links.txt
+[2.411s] writing entry points to ../../build/locobot_move/locobot_move.egg-info/entry_points.txt
+[2.411s] writing requirements to ../../build/locobot_move/locobot_move.egg-info/requires.txt
+[2.411s] writing top-level names to ../../build/locobot_move/locobot_move.egg-info/top_level.txt
+[2.411s] writing manifest file '../../build/locobot_move/locobot_move.egg-info/SOURCES.txt'
+[2.412s] reading manifest file '../../build/locobot_move/locobot_move.egg-info/SOURCES.txt'
+[2.412s] writing manifest file '../../build/locobot_move/locobot_move.egg-info/SOURCES.txt'
+[2.412s] running build
+[2.412s] running build_py
+[2.412s] creating /home/locobot/locobot_ws/build/locobot_move/build
+[2.412s] creating /home/locobot/locobot_ws/build/locobot_move/build/lib
+[2.412s] creating /home/locobot/locobot_ws/build/locobot_move/build/lib/locobot_move
+[2.413s] copying locobot_move/__init__.py -> /home/locobot/locobot_ws/build/locobot_move/build/lib/locobot_move
+[2.413s] copying locobot_move/locobot_node.py -> /home/locobot/locobot_ws/build/locobot_move/build/lib/locobot_move
+[2.413s] running install
+[2.413s] running install_lib
+[2.413s] creating /home/locobot/locobot_ws/install/locobot_move/lib/python3.10/site-packages/locobot_move
+[2.413s] copying /home/locobot/locobot_ws/build/locobot_move/build/lib/locobot_move/__init__.py -> /home/locobot/locobot_ws/install/locobot_move/lib/python3.10/site-packages/locobot_move
+[2.413s] copying /home/locobot/locobot_ws/build/locobot_move/build/lib/locobot_move/locobot_node.py -> /home/locobot/locobot_ws/install/locobot_move/lib/python3.10/site-packages/locobot_move
+[2.413s] byte-compiling /home/locobot/locobot_ws/install/locobot_move/lib/python3.10/site-packages/locobot_move/__init__.py to __init__.cpython-310.pyc
+[2.413s] byte-compiling /home/locobot/locobot_ws/install/locobot_move/lib/python3.10/site-packages/locobot_move/locobot_node.py to locobot_node.cpython-310.pyc
+[2.414s] running install_data
+[2.415s] creating /home/locobot/locobot_ws/install/locobot_move/share/ament_index
+[2.415s] creating /home/locobot/locobot_ws/install/locobot_move/share/ament_index/resource_index
+[2.415s] creating /home/locobot/locobot_ws/install/locobot_move/share/ament_index/resource_index/packages
+[2.415s] copying resource/locobot_move -> /home/locobot/locobot_ws/install/locobot_move/share/ament_index/resource_index/packages
+[2.415s] copying package.xml -> /home/locobot/locobot_ws/install/locobot_move/share/locobot_move
+[2.415s] running install_egg_info
+[2.419s] Copying ../../build/locobot_move/locobot_move.egg-info to /home/locobot/locobot_ws/install/locobot_move/lib/python3.10/site-packages/locobot_move-0.0.0-py3.10.egg-info
+[2.420s] running install_scripts
+[2.453s] Installing py_node script to /home/locobot/locobot_ws/install/locobot_move/lib/locobot_move
+[2.454s] writing list of installed files to '/home/locobot/locobot_ws/build/locobot_move/install.log'
+[2.510s] Invoked command in '/home/locobot/locobot_ws/src/locobot_move' returned '0': PYTHONPATH=/home/locobot/locobot_ws/build/locobot_move/prefix_override:/home/locobot/locobot_ws/install/locobot_move/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/locobot_move build --build-base /home/locobot/locobot_ws/build/locobot_move/build install --record /home/locobot/locobot_ws/build/locobot_move/install.log --single-version-externally-managed install_data

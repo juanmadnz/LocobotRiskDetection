@@ -1,0 +1,21 @@
+[1.531s] Invoking command in '/home/locobot/locobot_ws/src/locobot_move': PYTHONPATH=/home/locobot/locobot_ws/build/locobot_move/prefix_override:/home/locobot/locobot_ws/install/locobot_move/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/locobot_move build --build-base /home/locobot/locobot_ws/build/locobot_move/build install --record /home/locobot/locobot_ws/build/locobot_move/install.log --single-version-externally-managed install_data
+[2.096s] running egg_info
+[2.097s] writing ../../build/locobot_move/locobot_move.egg-info/PKG-INFO
+[2.097s] writing dependency_links to ../../build/locobot_move/locobot_move.egg-info/dependency_links.txt
+[2.097s] writing entry points to ../../build/locobot_move/locobot_move.egg-info/entry_points.txt
+[2.097s] writing requirements to ../../build/locobot_move/locobot_move.egg-info/requires.txt
+[2.097s] writing top-level names to ../../build/locobot_move/locobot_move.egg-info/top_level.txt
+[2.100s] reading manifest file '../../build/locobot_move/locobot_move.egg-info/SOURCES.txt'
+[2.102s] writing manifest file '../../build/locobot_move/locobot_move.egg-info/SOURCES.txt'
+[2.102s] running build
+[2.102s] running build_py
+[2.103s] running install
+[2.104s] running install_lib
+[2.106s] running install_data
+[2.106s] running install_egg_info
+[2.109s] removing '/home/locobot/locobot_ws/install/locobot_move/lib/python3.10/site-packages/locobot_move-0.0.0-py3.10.egg-info' (and everything under it)
+[2.110s] Copying ../../build/locobot_move/locobot_move.egg-info to /home/locobot/locobot_ws/install/locobot_move/lib/python3.10/site-packages/locobot_move-0.0.0-py3.10.egg-info
+[2.111s] running install_scripts
+[2.148s] Installing py_node script to /home/locobot/locobot_ws/install/locobot_move/lib/locobot_move
+[2.148s] writing list of installed files to '/home/locobot/locobot_ws/build/locobot_move/install.log'
+[2.203s] Invoked command in '/home/locobot/locobot_ws/src/locobot_move' returned '0': PYTHONPATH=/home/locobot/locobot_ws/build/locobot_move/prefix_override:/home/locobot/locobot_ws/install/locobot_move/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/locobot_move build --build-base /home/locobot/locobot_ws/build/locobot_move/build install --record /home/locobot/locobot_ws/build/locobot_move/install.log --single-version-externally-managed install_data

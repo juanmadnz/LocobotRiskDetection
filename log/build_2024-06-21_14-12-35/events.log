@@ -1,0 +1,145 @@
+[0.000000] (-) TimerEvent: {}
+[0.000787] (audio_common_msgs) JobQueued: {'identifier': 'audio_common_msgs', 'dependencies': OrderedDict()}
+[0.000832] (create3_examples_msgs) JobQueued: {'identifier': 'create3_examples_msgs', 'dependencies': OrderedDict()}
+[0.000855] (create3_examples_py) JobQueued: {'identifier': 'create3_examples_py', 'dependencies': OrderedDict()}
+[0.000874] (create3_lidar_slam) JobQueued: {'identifier': 'create3_lidar_slam', 'dependencies': OrderedDict()}
+[0.000892] (create3_republisher) JobQueued: {'identifier': 'create3_republisher', 'dependencies': OrderedDict()}
+[0.000909] (create3_teleop) JobQueued: {'identifier': 'create3_teleop', 'dependencies': OrderedDict()}
+[0.000926] (locobot_move) JobQueued: {'identifier': 'locobot_move', 'dependencies': OrderedDict()}
+[0.000942] (realsense2_camera_msgs) JobQueued: {'identifier': 'realsense2_camera_msgs', 'dependencies': OrderedDict()}
+[0.000958] (yolov8_msgs) JobQueued: {'identifier': 'yolov8_msgs', 'dependencies': OrderedDict()}
+[0.000975] (yolov8_ros) JobQueued: {'identifier': 'yolov8_ros', 'dependencies': OrderedDict()}
+[0.000991] (audio_common) JobQueued: {'identifier': 'audio_common', 'dependencies': OrderedDict([('audio_common_msgs', '/home/locobot/locobot_ws/install/audio_common_msgs')])}
+[0.001011] (create3_coverage) JobQueued: {'identifier': 'create3_coverage', 'dependencies': OrderedDict([('create3_examples_msgs', '/home/locobot/locobot_ws/install/create3_examples_msgs')])}
+[0.001030] (realsense2_camera) JobQueued: {'identifier': 'realsense2_camera', 'dependencies': OrderedDict([('realsense2_camera_msgs', '/home/locobot/locobot_ws/install/realsense2_camera_msgs')])}
+[0.001048] (realsense2_description) JobQueued: {'identifier': 'realsense2_description', 'dependencies': OrderedDict([('realsense2_camera_msgs', '/home/locobot/locobot_ws/install/realsense2_camera_msgs')])}
+[0.001066] (yolov8_bringup) JobQueued: {'identifier': 'yolov8_bringup', 'dependencies': OrderedDict([('yolov8_ros', '/home/locobot/locobot_ws/install/yolov8_ros')])}
+[0.001084] (tts_ros) JobQueued: {'identifier': 'tts_ros', 'dependencies': OrderedDict([('audio_common_msgs', '/home/locobot/locobot_ws/install/audio_common_msgs'), ('audio_common', '/home/locobot/locobot_ws/install/audio_common')])}
+[0.001104] (audio_common_msgs) JobStarted: {'identifier': 'audio_common_msgs'}
+[0.004138] (realsense2_camera_msgs) JobStarted: {'identifier': 'realsense2_camera_msgs'}
+[0.005601] (create3_examples_msgs) JobStarted: {'identifier': 'create3_examples_msgs'}
+[0.006947] (yolov8_ros) JobStarted: {'identifier': 'yolov8_ros'}
+[0.011786] (audio_common_msgs) JobProgress: {'identifier': 'audio_common_msgs', 'progress': 'cmake'}
+[0.012440] (audio_common_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/locobot/locobot_ws/src/audio_common/audio_common_msgs', '-DCMAKE_INSTALL_PREFIX=/home/locobot/locobot_ws/install/audio_common_msgs'], 'cwd': '/home/locobot/locobot_ws/build/audio_common_msgs', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('LC_TIME', 'es_UY.UTF-8'), ('USER', 'root'), ('HOME', '/root'), ('LC_MONETARY', 'es_UY.UTF-8'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('LOGNAME', 'root'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('LC_ADDRESS', 'es_UY.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_UY.UTF-8'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.V3PPP2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/colcon build'), ('LC_NAME', 'es_UY.UTF-8'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'locobot'), ('LC_MEASUREMENT', 'es_UY.UTF-8'), ('LC_IDENTIFICATION', 'es_UY.UTF-8'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/locobot/locobot_ws/build/audio_common_msgs'), ('LC_NUMERIC', 'es_UY.UTF-8'), ('LC_PAPER', 'es_UY.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[0.015489] (realsense2_camera_msgs) JobProgress: {'identifier': 'realsense2_camera_msgs', 'progress': 'cmake'}
+[0.015904] (realsense2_camera_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/locobot/locobot_ws/src/realsense-ros/realsense2_camera_msgs', '-DCMAKE_INSTALL_PREFIX=/home/locobot/locobot_ws/install/realsense2_camera_msgs'], 'cwd': '/home/locobot/locobot_ws/build/realsense2_camera_msgs', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('LC_TIME', 'es_UY.UTF-8'), ('USER', 'root'), ('HOME', '/root'), ('LC_MONETARY', 'es_UY.UTF-8'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('LOGNAME', 'root'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('LC_ADDRESS', 'es_UY.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_UY.UTF-8'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.V3PPP2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/colcon build'), ('LC_NAME', 'es_UY.UTF-8'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'locobot'), ('LC_MEASUREMENT', 'es_UY.UTF-8'), ('LC_IDENTIFICATION', 'es_UY.UTF-8'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/locobot/locobot_ws/build/realsense2_camera_msgs'), ('LC_NUMERIC', 'es_UY.UTF-8'), ('LC_PAPER', 'es_UY.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[0.017517] (create3_examples_msgs) JobProgress: {'identifier': 'create3_examples_msgs', 'progress': 'cmake'}
+[0.017711] (create3_examples_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/locobot/locobot_ws/src/create3_examples/create3_examples_msgs', '-DCMAKE_INSTALL_PREFIX=/home/locobot/locobot_ws/install/create3_examples_msgs'], 'cwd': '/home/locobot/locobot_ws/build/create3_examples_msgs', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('LC_TIME', 'es_UY.UTF-8'), ('USER', 'root'), ('HOME', '/root'), ('LC_MONETARY', 'es_UY.UTF-8'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('LOGNAME', 'root'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('LC_ADDRESS', 'es_UY.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_UY.UTF-8'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.V3PPP2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/colcon build'), ('LC_NAME', 'es_UY.UTF-8'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'locobot'), ('LC_MEASUREMENT', 'es_UY.UTF-8'), ('LC_IDENTIFICATION', 'es_UY.UTF-8'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/locobot/locobot_ws/build/create3_examples_msgs'), ('LC_NUMERIC', 'es_UY.UTF-8'), ('LC_PAPER', 'es_UY.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[0.087493] (audio_common_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.094601] (realsense2_camera_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.094885] (create3_examples_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099712] (-) TimerEvent: {}
+[0.178898] (realsense2_camera_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.179147] (create3_examples_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.180621] (audio_common_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.188199] (create3_examples_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.188443] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.190189] (audio_common_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199809] (-) TimerEvent: {}
+[0.278526] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.281098] (create3_examples_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.283507] (audio_common_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.293738] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.294377] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.295131] (create3_examples_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.295389] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.295569] (create3_examples_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.296218] (create3_examples_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.297587] (audio_common_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.297969] (audio_common_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.298590] (audio_common_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.299887] (-) TimerEvent: {}
+[0.300474] (create3_examples_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.301409] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.302840] (audio_common_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400005] (-) TimerEvent: {}
+[0.406130] (audio_common_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.409519] (create3_examples_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.412725] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.421522] (audio_common_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.421857] (audio_common_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.422561] (audio_common_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.425072] (create3_examples_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.425740] (create3_examples_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.426761] (create3_examples_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.432878] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.433208] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.433907] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.436900] (audio_common_msgs) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:9 (find_package):\n'}
+[0.437172] (audio_common_msgs) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.437297] (audio_common_msgs) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.437405] (audio_common_msgs) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.437505] (audio_common_msgs) StderrLine: {'line': b'\n'}
+[0.437603] (audio_common_msgs) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.437700] (audio_common_msgs) StderrLine: {'line': b'  any of the following names:\n'}
+[0.437789] (audio_common_msgs) StderrLine: {'line': b'\n'}
+[0.437880] (audio_common_msgs) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.437979] (audio_common_msgs) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.438076] (audio_common_msgs) StderrLine: {'line': b'\n'}
+[0.438165] (audio_common_msgs) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.438256] (audio_common_msgs) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.438341] (audio_common_msgs) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.438453] (audio_common_msgs) StderrLine: {'line': b'  has been installed.\n'}
+[0.438548] (audio_common_msgs) StderrLine: {'line': b'\n'}
+[0.438715] (audio_common_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.438830] (audio_common_msgs) StdoutLine: {'line': b'See also "/home/locobot/locobot_ws/build/audio_common_msgs/CMakeFiles/CMakeOutput.log".\n'}
+[0.438935] (audio_common_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[0.442484] (audio_common_msgs) CommandEnded: {'returncode': 1}
+[0.443336] (create3_examples_msgs) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:13 (find_package):\n'}
+[0.443554] (create3_examples_msgs) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.443679] (create3_examples_msgs) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.443784] (create3_examples_msgs) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.443881] (create3_examples_msgs) StderrLine: {'line': b'\n'}
+[0.443976] (create3_examples_msgs) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.444080] (create3_examples_msgs) StderrLine: {'line': b'  any of the following names:\n'}
+[0.444181] (create3_examples_msgs) StderrLine: {'line': b'\n'}
+[0.444276] (create3_examples_msgs) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.444371] (create3_examples_msgs) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.444466] (create3_examples_msgs) StderrLine: {'line': b'\n'}
+[0.444560] (create3_examples_msgs) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.444658] (create3_examples_msgs) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.444754] (create3_examples_msgs) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.444852] (create3_examples_msgs) StderrLine: {'line': b'  has been installed.\n'}
+[0.444948] (create3_examples_msgs) StderrLine: {'line': b'\n'}
+[0.445046] (create3_examples_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[0.445145] (create3_examples_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.445320] (create3_examples_msgs) StdoutLine: {'line': b'See also "/home/locobot/locobot_ws/build/create3_examples_msgs/CMakeFiles/CMakeOutput.log".\n'}
+[0.446324] (realsense2_camera_msgs) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:27 (find_package):\n'}
+[0.446522] (realsense2_camera_msgs) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.446633] (realsense2_camera_msgs) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.446729] (realsense2_camera_msgs) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.446821] (realsense2_camera_msgs) StderrLine: {'line': b'\n'}
+[0.446913] (realsense2_camera_msgs) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.447007] (realsense2_camera_msgs) StderrLine: {'line': b'  any of the following names:\n'}
+[0.447100] (realsense2_camera_msgs) StderrLine: {'line': b'\n'}
+[0.447192] (realsense2_camera_msgs) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.447285] (realsense2_camera_msgs) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.447380] (realsense2_camera_msgs) StderrLine: {'line': b'\n'}
+[0.447474] (realsense2_camera_msgs) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.447570] (realsense2_camera_msgs) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.447665] (realsense2_camera_msgs) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.447759] (realsense2_camera_msgs) StderrLine: {'line': b'  has been installed.\n'}
+[0.447860] (realsense2_camera_msgs) StderrLine: {'line': b'\n'}
+[0.448047] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.448173] (realsense2_camera_msgs) StdoutLine: {'line': b'See also "/home/locobot/locobot_ws/build/realsense2_camera_msgs/CMakeFiles/CMakeOutput.log".\n'}
+[0.448273] (realsense2_camera_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[0.454249] (realsense2_camera_msgs) CommandEnded: {'returncode': 1}
+[0.465747] (audio_common_msgs) JobEnded: {'identifier': 'audio_common_msgs', 'rc': 1}
+[0.466638] (create3_examples_msgs) JobEnded: {'identifier': 'create3_examples_msgs', 'rc': 'SIGINT'}
+[0.467260] (realsense2_camera_msgs) JobEnded: {'identifier': 'realsense2_camera_msgs', 'rc': 'SIGINT'}
+[0.500121] (-) TimerEvent: {}
+[0.600445] (-) TimerEvent: {}
+[0.681228] (yolov8_ros) JobEnded: {'identifier': 'yolov8_ros', 'rc': 'SIGINT'}
+[0.692237] (create3_examples_py) JobSkipped: {'identifier': 'create3_examples_py'}
+[0.692427] (create3_lidar_slam) JobSkipped: {'identifier': 'create3_lidar_slam'}
+[0.692485] (create3_republisher) JobSkipped: {'identifier': 'create3_republisher'}
+[0.692513] (create3_teleop) JobSkipped: {'identifier': 'create3_teleop'}
+[0.692532] (locobot_move) JobSkipped: {'identifier': 'locobot_move'}
+[0.692550] (yolov8_msgs) JobSkipped: {'identifier': 'yolov8_msgs'}
+[0.692568] (audio_common) JobSkipped: {'identifier': 'audio_common'}
+[0.692585] (create3_coverage) JobSkipped: {'identifier': 'create3_coverage'}
+[0.692602] (realsense2_camera) JobSkipped: {'identifier': 'realsense2_camera'}
+[0.692619] (realsense2_description) JobSkipped: {'identifier': 'realsense2_description'}
+[0.692636] (yolov8_bringup) JobSkipped: {'identifier': 'yolov8_bringup'}
+[0.692653] (tts_ros) JobSkipped: {'identifier': 'tts_ros'}
+[0.692671] (-) EventReactorShutdown: {}

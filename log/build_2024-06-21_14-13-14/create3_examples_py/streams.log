@@ -1,0 +1,45 @@
+[1.458s] Invoking command in '/home/locobot/locobot_ws/src/create3_examples/create3_examples_py': PYTHONPATH=/home/locobot/locobot_ws/build/create3_examples_py/prefix_override:/home/locobot/locobot_ws/install/create3_examples_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/create3_examples_py build --build-base /home/locobot/locobot_ws/build/create3_examples_py/build install --record /home/locobot/locobot_ws/build/create3_examples_py/install.log --single-version-externally-managed install_data
+[2.126s] running egg_info
+[2.127s] creating ../../../build/create3_examples_py/create3_examples_py.egg-info
+[2.128s] writing ../../../build/create3_examples_py/create3_examples_py.egg-info/PKG-INFO
+[2.128s] writing dependency_links to ../../../build/create3_examples_py/create3_examples_py.egg-info/dependency_links.txt
+[2.129s] writing entry points to ../../../build/create3_examples_py/create3_examples_py.egg-info/entry_points.txt
+[2.129s] writing requirements to ../../../build/create3_examples_py/create3_examples_py.egg-info/requires.txt
+[2.129s] writing top-level names to ../../../build/create3_examples_py/create3_examples_py.egg-info/top_level.txt
+[2.130s] writing manifest file '../../../build/create3_examples_py/create3_examples_py.egg-info/SOURCES.txt'
+[2.132s] reading manifest file '../../../build/create3_examples_py/create3_examples_py.egg-info/SOURCES.txt'
+[2.146s] writing manifest file '../../../build/create3_examples_py/create3_examples_py.egg-info/SOURCES.txt'
+[2.146s] running build
+[2.146s] running build_py
+[2.146s] creating /home/locobot/locobot_ws/build/create3_examples_py/build
+[2.147s] creating /home/locobot/locobot_ws/build/create3_examples_py/build/lib
+[2.147s] creating /home/locobot/locobot_ws/build/create3_examples_py/build/lib/create3_examples_py
+[2.147s] copying create3_examples_py/__init__.py -> /home/locobot/locobot_ws/build/create3_examples_py/build/lib/create3_examples_py
+[2.147s] creating /home/locobot/locobot_ws/build/create3_examples_py/build/lib/create3_examples_py/dance
+[2.147s] copying create3_examples_py/dance/dance_choreograph.py -> /home/locobot/locobot_ws/build/create3_examples_py/build/lib/create3_examples_py/dance
+[2.147s] copying create3_examples_py/dance/create3_dance.py -> /home/locobot/locobot_ws/build/create3_examples_py/build/lib/create3_examples_py/dance
+[2.147s] copying create3_examples_py/dance/__init__.py -> /home/locobot/locobot_ws/build/create3_examples_py/build/lib/create3_examples_py/dance
+[2.148s] running install
+[2.148s] running install_lib
+[2.150s] creating /home/locobot/locobot_ws/install/create3_examples_py/lib/python3.10/site-packages/create3_examples_py
+[2.150s] copying /home/locobot/locobot_ws/build/create3_examples_py/build/lib/create3_examples_py/__init__.py -> /home/locobot/locobot_ws/install/create3_examples_py/lib/python3.10/site-packages/create3_examples_py
+[2.150s] creating /home/locobot/locobot_ws/install/create3_examples_py/lib/python3.10/site-packages/create3_examples_py/dance
+[2.150s] copying /home/locobot/locobot_ws/build/create3_examples_py/build/lib/create3_examples_py/dance/dance_choreograph.py -> /home/locobot/locobot_ws/install/create3_examples_py/lib/python3.10/site-packages/create3_examples_py/dance
+[2.150s] copying /home/locobot/locobot_ws/build/create3_examples_py/build/lib/create3_examples_py/dance/create3_dance.py -> /home/locobot/locobot_ws/install/create3_examples_py/lib/python3.10/site-packages/create3_examples_py/dance
+[2.151s] copying /home/locobot/locobot_ws/build/create3_examples_py/build/lib/create3_examples_py/dance/__init__.py -> /home/locobot/locobot_ws/install/create3_examples_py/lib/python3.10/site-packages/create3_examples_py/dance
+[2.151s] byte-compiling /home/locobot/locobot_ws/install/create3_examples_py/lib/python3.10/site-packages/create3_examples_py/__init__.py to __init__.cpython-310.pyc
+[2.151s] byte-compiling /home/locobot/locobot_ws/install/create3_examples_py/lib/python3.10/site-packages/create3_examples_py/dance/dance_choreograph.py to dance_choreograph.cpython-310.pyc
+[2.154s] byte-compiling /home/locobot/locobot_ws/install/create3_examples_py/lib/python3.10/site-packages/create3_examples_py/dance/create3_dance.py to create3_dance.cpython-310.pyc
+[2.155s] byte-compiling /home/locobot/locobot_ws/install/create3_examples_py/lib/python3.10/site-packages/create3_examples_py/dance/__init__.py to __init__.cpython-310.pyc
+[2.155s] running install_data
+[2.155s] creating /home/locobot/locobot_ws/install/create3_examples_py/share/ament_index
+[2.156s] creating /home/locobot/locobot_ws/install/create3_examples_py/share/ament_index/resource_index
+[2.156s] creating /home/locobot/locobot_ws/install/create3_examples_py/share/ament_index/resource_index/packages
+[2.156s] copying resource/create3_examples_py -> /home/locobot/locobot_ws/install/create3_examples_py/share/ament_index/resource_index/packages
+[2.156s] copying package.xml -> /home/locobot/locobot_ws/install/create3_examples_py/share/create3_examples_py
+[2.156s] running install_egg_info
+[2.176s] Copying ../../../build/create3_examples_py/create3_examples_py.egg-info to /home/locobot/locobot_ws/install/create3_examples_py/lib/python3.10/site-packages/create3_examples_py-0.0.1-py3.10.egg-info
+[2.176s] running install_scripts
+[2.258s] Installing create3_dance script to /home/locobot/locobot_ws/install/create3_examples_py/lib/create3_examples_py
+[2.259s] writing list of installed files to '/home/locobot/locobot_ws/build/create3_examples_py/install.log'
+[2.354s] Invoked command in '/home/locobot/locobot_ws/src/create3_examples/create3_examples_py' returned '0': PYTHONPATH=/home/locobot/locobot_ws/build/create3_examples_py/prefix_override:/home/locobot/locobot_ws/install/create3_examples_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/create3_examples_py build --build-base /home/locobot/locobot_ws/build/create3_examples_py/build install --record /home/locobot/locobot_ws/build/create3_examples_py/install.log --single-version-externally-managed install_data

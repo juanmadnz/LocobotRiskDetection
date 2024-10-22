@@ -1,0 +1,17 @@
+[1.880s] Invoking command in '/home/locobot/locobot_ws/src/create3_examples/create3_teleop': PYTHONPATH=/home/locobot/locobot_ws/build/create3_teleop/prefix_override:/home/locobot/locobot_ws/install/create3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/create3_teleop build --build-base /home/locobot/locobot_ws/build/create3_teleop/build install --record /home/locobot/locobot_ws/build/create3_teleop/install.log --single-version-externally-managed install_data
+[2.556s] running egg_info
+[2.556s] writing ../../../build/create3_teleop/create3_teleop.egg-info/PKG-INFO
+[2.556s] writing dependency_links to ../../../build/create3_teleop/create3_teleop.egg-info/dependency_links.txt
+[2.556s] writing requirements to ../../../build/create3_teleop/create3_teleop.egg-info/requires.txt
+[2.557s] writing top-level names to ../../../build/create3_teleop/create3_teleop.egg-info/top_level.txt
+[2.558s] reading manifest file '../../../build/create3_teleop/create3_teleop.egg-info/SOURCES.txt'
+[2.559s] writing manifest file '../../../build/create3_teleop/create3_teleop.egg-info/SOURCES.txt'
+[2.559s] running build
+[2.560s] running install
+[2.560s] running install_data
+[2.560s] running install_egg_info
+[2.575s] removing '/home/locobot/locobot_ws/install/create3_teleop/lib/python3.10/site-packages/create3_teleop-0.0.1-py3.10.egg-info' (and everything under it)
+[2.575s] Copying ../../../build/create3_teleop/create3_teleop.egg-info to /home/locobot/locobot_ws/install/create3_teleop/lib/python3.10/site-packages/create3_teleop-0.0.1-py3.10.egg-info
+[2.575s] running install_scripts
+[2.605s] writing list of installed files to '/home/locobot/locobot_ws/build/create3_teleop/install.log'
+[2.654s] Invoked command in '/home/locobot/locobot_ws/src/create3_examples/create3_teleop' returned '0': PYTHONPATH=/home/locobot/locobot_ws/build/create3_teleop/prefix_override:/home/locobot/locobot_ws/install/create3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/create3_teleop build --build-base /home/locobot/locobot_ws/build/create3_teleop/build install --record /home/locobot/locobot_ws/build/create3_teleop/install.log --single-version-externally-managed install_data

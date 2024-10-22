@@ -1,0 +1,21 @@
+[1.141s] Invoking command in '/home/locobot/locobot_ws/src/detection': AMENT_PREFIX_PATH=/home/locobot/locobot_ws/install/yolov8_msgs:/home/locobot/locobot_ws/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/locobot_ws/install/yolov8_msgs:/home/locobot/locobot_ws/install/audio_common_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/locobot/locobot_ws/install/yolov8_msgs/lib:/home/locobot/locobot_ws/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/locobot/locobot_ws/build/detection/prefix_override:/home/locobot/locobot_ws/install/detection/lib/python3.10/site-packages:/home/locobot/locobot_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages:/home/locobot/locobot_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/detection build --build-base /home/locobot/locobot_ws/build/detection/build install --record /home/locobot/locobot_ws/build/detection/install.log --single-version-externally-managed install_data
+[1.580s] running egg_info
+[1.580s] writing ../../build/detection/detection.egg-info/PKG-INFO
+[1.581s] writing dependency_links to ../../build/detection/detection.egg-info/dependency_links.txt
+[1.581s] writing entry points to ../../build/detection/detection.egg-info/entry_points.txt
+[1.581s] writing requirements to ../../build/detection/detection.egg-info/requires.txt
+[1.581s] writing top-level names to ../../build/detection/detection.egg-info/top_level.txt
+[1.583s] reading manifest file '../../build/detection/detection.egg-info/SOURCES.txt'
+[1.584s] writing manifest file '../../build/detection/detection.egg-info/SOURCES.txt'
+[1.584s] running build
+[1.584s] running build_py
+[1.584s] running install
+[1.584s] running install_lib
+[1.586s] running install_data
+[1.586s] running install_egg_info
+[1.588s] removing '/home/locobot/locobot_ws/install/detection/lib/python3.10/site-packages/detection-0.0.0-py3.10.egg-info' (and everything under it)
+[1.588s] Copying ../../build/detection/detection.egg-info to /home/locobot/locobot_ws/install/detection/lib/python3.10/site-packages/detection-0.0.0-py3.10.egg-info
+[1.588s] running install_scripts
+[1.615s] Installing detection_node script to /home/locobot/locobot_ws/install/detection/lib/detection
+[1.615s] writing list of installed files to '/home/locobot/locobot_ws/build/detection/install.log'
+[1.647s] Invoked command in '/home/locobot/locobot_ws/src/detection' returned '0': AMENT_PREFIX_PATH=/home/locobot/locobot_ws/install/yolov8_msgs:/home/locobot/locobot_ws/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/locobot_ws/install/yolov8_msgs:/home/locobot/locobot_ws/install/audio_common_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/locobot/locobot_ws/install/yolov8_msgs/lib:/home/locobot/locobot_ws/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/locobot/locobot_ws/build/detection/prefix_override:/home/locobot/locobot_ws/install/detection/lib/python3.10/site-packages:/home/locobot/locobot_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages:/home/locobot/locobot_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/detection build --build-base /home/locobot/locobot_ws/build/detection/build install --record /home/locobot/locobot_ws/build/detection/install.log --single-version-externally-managed install_data

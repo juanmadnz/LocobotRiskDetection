@@ -1,0 +1,24 @@
+[1.838s] Invoking command in '/home/locobot/locobot_ws/src/yolov8_ros/yolov8_ros': PYTHONPATH=/home/locobot/locobot_ws/build/yolov8_ros/prefix_override:/home/locobot/locobot_ws/install/yolov8_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/yolov8_ros build --build-base /home/locobot/locobot_ws/build/yolov8_ros/build install --record /home/locobot/locobot_ws/build/yolov8_ros/install.log --single-version-externally-managed install_data
+[2.458s] running egg_info
+[2.458s] writing ../../../build/yolov8_ros/yolov8_ros.egg-info/PKG-INFO
+[2.458s] writing dependency_links to ../../../build/yolov8_ros/yolov8_ros.egg-info/dependency_links.txt
+[2.458s] writing entry points to ../../../build/yolov8_ros/yolov8_ros.egg-info/entry_points.txt
+[2.459s] writing requirements to ../../../build/yolov8_ros/yolov8_ros.egg-info/requires.txt
+[2.459s] writing top-level names to ../../../build/yolov8_ros/yolov8_ros.egg-info/top_level.txt
+[2.461s] reading manifest file '../../../build/yolov8_ros/yolov8_ros.egg-info/SOURCES.txt'
+[2.463s] writing manifest file '../../../build/yolov8_ros/yolov8_ros.egg-info/SOURCES.txt'
+[2.464s] running build
+[2.465s] running build_py
+[2.466s] running install
+[2.467s] running install_lib
+[2.470s] running install_data
+[2.471s] running install_egg_info
+[2.482s] removing '/home/locobot/locobot_ws/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros-0.0.0-py3.10.egg-info' (and everything under it)
+[2.482s] Copying ../../../build/yolov8_ros/yolov8_ros.egg-info to /home/locobot/locobot_ws/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros-0.0.0-py3.10.egg-info
+[2.484s] running install_scripts
+[2.524s] Installing debug_node script to /home/locobot/locobot_ws/install/yolov8_ros/lib/yolov8_ros
+[2.524s] Installing detect_3d_node script to /home/locobot/locobot_ws/install/yolov8_ros/lib/yolov8_ros
+[2.525s] Installing tracking_node script to /home/locobot/locobot_ws/install/yolov8_ros/lib/yolov8_ros
+[2.525s] Installing yolov8_node script to /home/locobot/locobot_ws/install/yolov8_ros/lib/yolov8_ros
+[2.525s] writing list of installed files to '/home/locobot/locobot_ws/build/yolov8_ros/install.log'
+[3.097s] Invoked command in '/home/locobot/locobot_ws/src/yolov8_ros/yolov8_ros' returned '0': PYTHONPATH=/home/locobot/locobot_ws/build/yolov8_ros/prefix_override:/home/locobot/locobot_ws/install/yolov8_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/yolov8_ros build --build-base /home/locobot/locobot_ws/build/yolov8_ros/build install --record /home/locobot/locobot_ws/build/yolov8_ros/install.log --single-version-externally-managed install_data

@@ -284,7 +284,7 @@ librealsense2_camera.so: CMakeFiles/realsense2_camera.dir/src/image_publisher.cp
 librealsense2_camera.so: CMakeFiles/realsense2_camera.dir/src/tfs.cpp.o
 librealsense2_camera.so: CMakeFiles/realsense2_camera.dir/src/ros_param_backend.cpp.o
 librealsense2_camera.so: CMakeFiles/realsense2_camera.dir/build.make
-librealsense2_camera.so: /opt/ros/humble/lib/x86_64-linux-gnu/librealsense2.so.2.54.1
+librealsense2_camera.so: /opt/ros/humble/lib/x86_64-linux-gnu/librealsense2.so.2.55.1
 librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.4.5.4d
 librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/libopencv_alphamat.so.4.5.4d
 librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.4.5.4d

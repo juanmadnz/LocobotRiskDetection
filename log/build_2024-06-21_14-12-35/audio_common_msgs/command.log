@@ -1,0 +1,2 @@
+Invoking command in '/home/locobot/locobot_ws/build/audio_common_msgs': /usr/bin/cmake /home/locobot/locobot_ws/src/audio_common/audio_common_msgs -DCMAKE_INSTALL_PREFIX=/home/locobot/locobot_ws/install/audio_common_msgs
+Invoked command in '/home/locobot/locobot_ws/build/audio_common_msgs' returned '1': /usr/bin/cmake /home/locobot/locobot_ws/src/audio_common/audio_common_msgs -DCMAKE_INSTALL_PREFIX=/home/locobot/locobot_ws/install/audio_common_msgs

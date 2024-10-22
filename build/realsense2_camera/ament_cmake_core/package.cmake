@@ -1,5 +1,5 @@
 set(_AMENT_PACKAGE_NAME "realsense2_camera")
-set(realsense2_camera_VERSION "4.54.1")
+set(realsense2_camera_VERSION "4.55.1")
 set(realsense2_camera_MAINTAINER "LibRealSense ROS Team <librs.ros@intel.com>")
 set(realsense2_camera_BUILD_DEPENDS "ros_environment" "eigen" "builtin_interfaces" "cv_bridge" "image_transport" "librealsense2" "rclcpp" "rclcpp_components" "realsense2_camera_msgs" "sensor_msgs" "geometry_msgs" "std_msgs" "nav_msgs" "tf2" "tf2_ros" "diagnostic_updater")
 set(realsense2_camera_BUILDTOOL_DEPENDS "ament_cmake")

@@ -1,4 +1,3 @@
-/home/locobot/locobot_ws/install/yolov8_bringup/share/yolov8_bringup//launch/.yolov8.launch.py.swp
 /home/locobot/locobot_ws/install/yolov8_bringup/share/yolov8_bringup//launch/yolov8.launch.py
 /home/locobot/locobot_ws/install/yolov8_bringup/share/yolov8_bringup//launch/yolov9.launch.py
 /home/locobot/locobot_ws/install/yolov8_bringup/share/yolov8_bringup//launch/yolov8_3d.launch.py

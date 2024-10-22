@@ -1,0 +1,5 @@
+/home/locobot/locobot_ws/build/audio_common_msgs/rosidl_adapter/audio_common_msgs:msg/AudioData.idl
+/home/locobot/locobot_ws/build/audio_common_msgs/rosidl_adapter/audio_common_msgs:msg/AudioInfo.idl
+/home/locobot/locobot_ws/build/audio_common_msgs/rosidl_adapter/audio_common_msgs:msg/Audio.idl
+/home/locobot/locobot_ws/build/audio_common_msgs/rosidl_adapter/audio_common_msgs:msg/AudioStamped.idl
+/home/locobot/locobot_ws/build/audio_common_msgs/rosidl_adapter/audio_common_msgs:action/TTS.idl

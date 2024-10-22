@@ -1,0 +1,342 @@
+[0.036s] Invoking command in '/home/locobot/locobot_ws/build/audio_common_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/locobot_ws/install/yolov8_ros:/home/locobot/locobot_ws/install/locobot_move:/home/locobot/locobot_ws/install/detection_ros:/home/locobot/locobot_ws/install/create3_teleop:/home/locobot/locobot_ws/install/create3_examples_py:/home/locobot/interbotix_ws/install/interbotix_xslocobot_control:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake /home/locobot/locobot_ws/src/audio_common/audio_common_msgs -DCMAKE_INSTALL_PREFIX=/home/locobot/locobot_ws/install/audio_common_msgs
+[0.064s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.347s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.571s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[0.681s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.701s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.726s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.766s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.820s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.945s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.614s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.292s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.543s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.583s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.591s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.638s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.639s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.639s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.639s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.676s] -- Found PythonExtra: .so  
+[2.877s] -- Configuring done
+[2.947s] -- Generating done
+[2.951s] -- Build files have been written to: /home/locobot/locobot_ws/build/audio_common_msgs
+[2.977s] Invoked command in '/home/locobot/locobot_ws/build/audio_common_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/locobot_ws/install/yolov8_ros:/home/locobot/locobot_ws/install/locobot_move:/home/locobot/locobot_ws/install/detection_ros:/home/locobot/locobot_ws/install/create3_teleop:/home/locobot/locobot_ws/install/create3_examples_py:/home/locobot/interbotix_ws/install/interbotix_xslocobot_control:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake /home/locobot/locobot_ws/src/audio_common/audio_common_msgs -DCMAKE_INSTALL_PREFIX=/home/locobot/locobot_ws/install/audio_common_msgs
+[2.978s] Invoking command in '/home/locobot/locobot_ws/build/audio_common_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/locobot_ws/install/yolov8_ros:/home/locobot/locobot_ws/install/locobot_move:/home/locobot/locobot_ws/install/detection_ros:/home/locobot/locobot_ws/install/create3_teleop:/home/locobot/locobot_ws/install/create3_examples_py:/home/locobot/interbotix_ws/install/interbotix_xslocobot_control:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/locobot/locobot_ws/build/audio_common_msgs -- -j4 -l4
+[3.156s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.193s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.293s] [  3%] Built target ament_cmake_python_copy_audio_common_msgs
+[4.396s] running egg_info
+[4.397s] creating audio_common_msgs.egg-info
+[4.398s] writing audio_common_msgs.egg-info/PKG-INFO
+[4.398s] writing dependency_links to audio_common_msgs.egg-info/dependency_links.txt
+[4.398s] writing top-level names to audio_common_msgs.egg-info/top_level.txt
+[4.399s] writing manifest file 'audio_common_msgs.egg-info/SOURCES.txt'
+[4.402s] reading manifest file 'audio_common_msgs.egg-info/SOURCES.txt'
+[4.403s] writing manifest file 'audio_common_msgs.egg-info/SOURCES.txt'
+[4.497s] [  3%] Built target ament_cmake_python_build_audio_common_msgs_egg
+[6.010s] [  4%] [32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_generator_c.dir/rosidl_generator_c/audio_common_msgs/msg/detail/audio_info__functions.c.o[0m
+[6.019s] [  6%] [32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_generator_c.dir/rosidl_generator_c/audio_common_msgs/msg/detail/audio_data__functions.c.o[0m
+[6.236s] [  7%] [32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_generator_c.dir/rosidl_generator_c/audio_common_msgs/msg/detail/audio_stamped__functions.c.o[0m
+[6.246s] [  9%] [32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_generator_c.dir/rosidl_generator_c/audio_common_msgs/msg/detail/audio__functions.c.o[0m
+[6.251s] [  9%] Built target audio_common_msgs__cpp
+[6.311s] [ 11%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.371s] [ 12%] [32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_generator_c.dir/rosidl_generator_c/audio_common_msgs/action/detail/tts__functions.c.o[0m
+[6.553s] [ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.555s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.153s] [ 17%] [32m[1mLinking C shared library libaudio_common_msgs__rosidl_generator_c.so[0m
+[7.374s] [ 17%] Built target audio_common_msgs__rosidl_generator_c
+[7.459s] [ 19%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.959s] [ 20%] [32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/audio_common_msgs/msg/detail/audio_data__type_support.cpp.o[0m
+[9.014s] [ 22%] [32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/audio_common_msgs/msg/audio_data__type_support.cpp.o[0m
+[10.039s] [ 23%] [32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/audio_common_msgs/msg/audio_info__type_support.cpp.o[0m
+[10.336s] [ 25%] [32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/audio_common_msgs/msg/detail/dds_fastrtps/audio_data__type_support.cpp.o[0m
+[11.161s] [ 26%] [32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/audio_common_msgs/msg/audio__type_support.cpp.o[0m
+[11.451s] [ 28%] [32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/audio_common_msgs/msg/detail/audio_data__type_support_c.cpp.o[0m
+[11.674s] [ 30%] [32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/audio_common_msgs/msg/detail/audio_info__type_support.cpp.o[0m
+[12.194s] [ 31%] [32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/audio_common_msgs/msg/detail/dds_fastrtps/audio_info__type_support.cpp.o[0m
+[12.270s] [ 33%] [32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/audio_common_msgs/msg/audio_stamped__type_support.cpp.o[0m
+[13.003s] [ 34%] [32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/audio_common_msgs/msg/detail/audio_info__type_support_c.cpp.o[0m
+[13.359s] [ 36%] [32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/audio_common_msgs/msg/detail/audio__type_support.cpp.o[0m
+[13.596s] [ 38%] [32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/audio_common_msgs/action/tts__type_support.cpp.o[0m
+[13.967s] [ 39%] [32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/audio_common_msgs/msg/detail/audio__type_support_c.cpp.o[0m
+[14.057s] [ 41%] [32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/audio_common_msgs/msg/detail/dds_fastrtps/audio__type_support.cpp.o[0m
+[14.552s] [ 42%] [32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/audio_common_msgs/msg/detail/audio_stamped__type_support.cpp.o[0m
+[15.178s] [ 44%] [32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/audio_common_msgs/msg/detail/dds_fastrtps/audio_stamped__type_support.cpp.o[0m
+[15.467s] [ 46%] [32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/audio_common_msgs/msg/detail/audio_stamped__type_support_c.cpp.o[0m
+[15.776s] [ 47%] [32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/audio_common_msgs/action/detail/tts__type_support.cpp.o[0m
+[15.969s] [ 49%] [32m[1mLinking CXX shared library libaudio_common_msgs__rosidl_typesupport_cpp.so[0m
+[16.198s] [ 49%] Built target audio_common_msgs__rosidl_typesupport_cpp
+[16.244s] [ 50%] [32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/audio_common_msgs/action/detail/tts__type_support_c.cpp.o[0m
+[16.820s] [ 52%] [32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/audio_common_msgs/action/detail/dds_fastrtps/tts__type_support.cpp.o[0m
+[17.016s] [ 53%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[17.424s] [ 55%] [32m[1mLinking CXX shared library libaudio_common_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[17.846s] [ 55%] Built target audio_common_msgs__rosidl_typesupport_fastrtps_c
+[17.937s] [ 57%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[17.995s] [ 58%] [32m[1mLinking CXX shared library libaudio_common_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[18.427s] [ 58%] Built target audio_common_msgs__rosidl_typesupport_introspection_cpp
+[18.868s] [ 60%] [32m[1mLinking CXX shared library libaudio_common_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[18.975s] [ 61%] [32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/audio_common_msgs/msg/detail/audio_data__type_support.c.o[0m
+[19.002s] [ 63%] [32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/audio_common_msgs/msg/detail/audio_info__type_support.c.o[0m
+[19.121s] [ 65%] [32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/audio_common_msgs/msg/detail/audio__type_support.c.o[0m
+[19.137s] [ 65%] Built target audio_common_msgs__rosidl_typesupport_fastrtps_cpp
+[19.154s] [ 66%] [32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/audio_common_msgs/action/detail/tts__type_support.c.o[0m
+[19.167s] [ 68%] [32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/audio_common_msgs/msg/detail/audio_stamped__type_support.c.o[0m
+[19.326s] [ 69%] [32m[1mLinking C shared library libaudio_common_msgs__rosidl_typesupport_introspection_c.so[0m
+[19.440s] [ 69%] Built target audio_common_msgs__rosidl_typesupport_introspection_c
+[19.457s] [ 71%] [32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/audio_common_msgs/msg/audio_data__type_support.cpp.o[0m
+[19.457s] [ 73%] [32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/audio_common_msgs/msg/audio_info__type_support.cpp.o[0m
+[19.466s] [ 74%] [32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/audio_common_msgs/msg/audio_stamped__type_support.cpp.o[0m
+[19.469s] [ 76%] [32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/audio_common_msgs/msg/audio__type_support.cpp.o[0m
+[19.543s] [ 77%] [32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/audio_common_msgs/action/tts__type_support.cpp.o[0m
+[19.620s] [ 79%] [32m[1mLinking CXX shared library libaudio_common_msgs__rosidl_typesupport_c.so[0m
+[19.682s] [ 79%] Built target audio_common_msgs__rosidl_typesupport_c
+[19.714s] [ 79%] Built target audio_common_msgs
+[19.746s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[22.174s] [ 80%] Built target audio_common_msgs__py
+[22.215s] [ 82%] [32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_generator_py.dir/rosidl_generator_py/audio_common_msgs/msg/_audio_data_s.c.o[0m
+[22.218s] [ 84%] [32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_generator_py.dir/rosidl_generator_py/audio_common_msgs/msg/_audio_s.c.o[0m
+[22.229s] [ 85%] [32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_generator_py.dir/rosidl_generator_py/audio_common_msgs/msg/_audio_stamped_s.c.o[0m
+[22.234s] [ 87%] [32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_generator_py.dir/rosidl_generator_py/audio_common_msgs/msg/_audio_info_s.c.o[0m
+[22.505s] [ 88%] [32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_generator_py.dir/rosidl_generator_py/audio_common_msgs/action/_tts_s.c.o[0m
+[22.747s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/audio_common_msgs/libaudio_common_msgs__rosidl_generator_py.so[0m
+[22.819s] [ 90%] Built target audio_common_msgs__rosidl_generator_py
+[22.878s] [ 92%] [32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/audio_common_msgs/_audio_common_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[22.893s] [ 93%] [32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/audio_common_msgs/_audio_common_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[22.929s] [ 95%] [32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/audio_common_msgs/_audio_common_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[23.116s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[23.181s] [ 96%] Built target audio_common_msgs__rosidl_typesupport_introspection_c__pyext
+[23.186s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[23.234s] [100%] [32m[1mLinking C shared library rosidl_generator_py/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[23.259s] [100%] Built target audio_common_msgs__rosidl_typesupport_c__pyext
+[23.301s] [100%] Built target audio_common_msgs__rosidl_typesupport_fastrtps_c__pyext
+[23.319s] Invoked command in '/home/locobot/locobot_ws/build/audio_common_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/locobot_ws/install/yolov8_ros:/home/locobot/locobot_ws/install/locobot_move:/home/locobot/locobot_ws/install/detection_ros:/home/locobot/locobot_ws/install/create3_teleop:/home/locobot/locobot_ws/install/create3_examples_py:/home/locobot/interbotix_ws/install/interbotix_xslocobot_control:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/locobot/locobot_ws/build/audio_common_msgs -- -j4 -l4
+[23.586s] Invoking command in '/home/locobot/locobot_ws/build/audio_common_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/locobot_ws/install/yolov8_ros:/home/locobot/locobot_ws/install/locobot_move:/home/locobot/locobot_ws/install/detection_ros:/home/locobot/locobot_ws/install/create3_teleop:/home/locobot/locobot_ws/install/create3_examples_py:/home/locobot/interbotix_ws/install/interbotix_xslocobot_control:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --install /home/locobot/locobot_ws/build/audio_common_msgs
+[23.616s] -- Install configuration: ""
+[23.617s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/share/ament_index/resource_index/rosidl_interfaces/audio_common_msgs
+[23.617s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs
+[23.617s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/action
+[23.617s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/action/tts.h
+[23.618s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/action/detail
+[23.618s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/action/detail/tts__functions.c
+[23.618s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/action/detail/tts__type_support.h
+[23.618s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/action/detail/tts__struct.h
+[23.618s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/action/detail/tts__functions.h
+[23.618s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg
+[23.618s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/audio.h
+[23.618s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail
+[23.619s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__type_support.h
+[23.619s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__functions.c
+[23.619s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio__functions.c
+[23.619s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio__functions.h
+[23.619s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__struct.h
+[23.619s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_stamped__struct.h
+[23.619s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_stamped__functions.h
+[23.619s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__type_support.h
+[23.624s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__functions.h
+[23.624s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__functions.h
+[23.625s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__struct.h
+[23.625s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_stamped__functions.c
+[23.626s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio__struct.h
+[23.626s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__functions.c
+[23.626s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio__type_support.h
+[23.626s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_stamped__type_support.h
+[23.626s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/audio_data.h
+[23.627s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/audio_info.h
+[23.628s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/audio_stamped.h
+[23.628s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/rosidl_generator_c__visibility_control.h
+[23.628s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/share/audio_common_msgs/environment/library_path.sh
+[23.628s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/share/audio_common_msgs/environment/library_path.dsv
+[23.629s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_generator_c.so
+[23.629s] -- Set runtime path of "/home/locobot/locobot_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_generator_c.so" to ""
+[23.629s] -- Up-to-date: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs
+[23.630s] -- Up-to-date: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/action
+[23.630s] -- Up-to-date: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/action/detail
+[23.631s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/action/detail/tts__rosidl_typesupport_fastrtps_c.h
+[23.631s] -- Up-to-date: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg
+[23.631s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[23.631s] -- Up-to-date: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail
+[23.633s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_stamped__rosidl_typesupport_fastrtps_c.h
+[23.633s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__rosidl_typesupport_fastrtps_c.h
+[23.633s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio__rosidl_typesupport_fastrtps_c.h
+[23.633s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__rosidl_typesupport_fastrtps_c.h
+[23.633s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_fastrtps_c.so
+[23.633s] -- Set runtime path of "/home/locobot/locobot_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[23.634s] -- Up-to-date: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs
+[23.634s] -- Up-to-date: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/action
+[23.634s] -- Up-to-date: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/action/detail
+[23.635s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/action/detail/tts__builder.hpp
+[23.635s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/action/detail/tts__struct.hpp
+[23.635s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/action/detail/tts__traits.hpp
+[23.636s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/action/tts.hpp
+[23.636s] -- Up-to-date: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg
+[23.636s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/audio_stamped.hpp
+[23.637s] -- Up-to-date: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail
+[23.641s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__traits.hpp
+[23.641s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__builder.hpp
+[23.641s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_stamped__builder.hpp
+[23.641s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__struct.hpp
+[23.641s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio__traits.hpp
+[23.641s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_stamped__struct.hpp
+[23.642s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio__struct.hpp
+[23.642s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio__builder.hpp
+[23.642s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_stamped__traits.hpp
+[23.642s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__traits.hpp
+[23.642s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__builder.hpp
+[23.642s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__struct.hpp
+[23.642s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/audio_info.hpp
+[23.642s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/audio_data.hpp
+[23.642s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/audio.hpp
+[23.642s] -- Up-to-date: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs
+[23.643s] -- Up-to-date: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/action
+[23.643s] -- Up-to-date: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/action/detail
+[23.643s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/action/detail/tts__rosidl_typesupport_fastrtps_cpp.hpp
+[23.643s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/action/detail/dds_fastrtps
+[23.643s] -- Up-to-date: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg
+[23.643s] -- Up-to-date: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail
+[23.643s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio__rosidl_typesupport_fastrtps_cpp.hpp
+[23.643s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__rosidl_typesupport_fastrtps_cpp.hpp
+[23.643s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/dds_fastrtps
+[23.643s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[23.643s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__rosidl_typesupport_fastrtps_cpp.hpp
+[23.643s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[23.644s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_fastrtps_cpp.so
+[23.644s] -- Set runtime path of "/home/locobot/locobot_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[23.644s] -- Up-to-date: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs
+[23.644s] -- Up-to-date: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/action
+[23.644s] -- Up-to-date: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/action/detail
+[23.644s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/action/detail/tts__type_support.c
+[23.644s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/action/detail/tts__rosidl_typesupport_introspection_c.h
+[23.644s] -- Up-to-date: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg
+[23.644s] -- Up-to-date: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail
+[23.644s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__type_support.c
+[23.644s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__rosidl_typesupport_introspection_c.h
+[23.645s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__type_support.c
+[23.645s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__rosidl_typesupport_introspection_c.h
+[23.645s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio__type_support.c
+[23.645s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio__rosidl_typesupport_introspection_c.h
+[23.645s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_stamped__rosidl_typesupport_introspection_c.h
+[23.645s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_stamped__type_support.c
+[23.645s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[23.645s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_introspection_c.so
+[23.645s] -- Set runtime path of "/home/locobot/locobot_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_introspection_c.so" to ""
+[23.645s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_c.so
+[23.645s] -- Set runtime path of "/home/locobot/locobot_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_c.so" to ""
+[23.646s] -- Up-to-date: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs
+[23.646s] -- Up-to-date: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/action
+[23.646s] -- Up-to-date: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/action/detail
+[23.646s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/action/detail/tts__type_support.cpp
+[23.646s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/action/detail/tts__rosidl_typesupport_introspection_cpp.hpp
+[23.657s] -- Up-to-date: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg
+[23.657s] -- Up-to-date: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail
+[23.657s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio__rosidl_typesupport_introspection_cpp.hpp
+[23.657s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_stamped__type_support.cpp
+[23.657s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_stamped__rosidl_typesupport_introspection_cpp.hpp
+[23.657s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio__type_support.cpp
+[23.658s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__rosidl_typesupport_introspection_cpp.hpp
+[23.658s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__type_support.cpp
+[23.658s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__type_support.cpp
+[23.658s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__rosidl_typesupport_introspection_cpp.hpp
+[23.658s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_introspection_cpp.so
+[23.658s] -- Set runtime path of "/home/locobot/locobot_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[23.658s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_cpp.so
+[23.658s] -- Set runtime path of "/home/locobot/locobot_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_cpp.so" to ""
+[23.658s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/share/audio_common_msgs/environment/pythonpath.sh
+[23.658s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/share/audio_common_msgs/environment/pythonpath.dsv
+[23.658s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs-0.0.0-py3.10.egg-info
+[23.658s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[23.659s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[23.659s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[23.659s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[23.659s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs
+[23.659s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/libaudio_common_msgs__rosidl_generator_py.so
+[23.659s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/_audio_common_msgs_s.ep.rosidl_typesupport_c.c
+[23.659s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[23.659s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/action
+[23.659s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/action/_tts_s.c
+[23.659s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/action/__init__.py
+[23.659s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/action/_tts.py
+[23.659s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/__init__.py
+[23.660s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/_audio_common_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[23.660s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/_audio_common_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[23.660s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/msg
+[23.660s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/msg/_audio_stamped_s.c
+[23.660s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/msg/_audio_stamped.py
+[23.660s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/msg/_audio_info.py
+[23.660s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/msg/_audio.py
+[23.660s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/msg/__init__.py
+[23.660s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/msg/_audio_data_s.c
+[23.660s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/msg/_audio_info_s.c
+[23.660s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/msg/_audio_data.py
+[23.660s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/msg/_audio_s.c
+[23.660s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[23.661s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[23.719s] Listing '/home/locobot/locobot_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs'...
+[23.720s] Compiling '/home/locobot/locobot_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/__init__.py'...
+[23.720s] Listing '/home/locobot/locobot_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/action'...
+[23.720s] Compiling '/home/locobot/locobot_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/action/__init__.py'...
+[23.720s] Compiling '/home/locobot/locobot_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/action/_tts.py'...
+[23.720s] Listing '/home/locobot/locobot_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/msg'...
+[23.720s] Compiling '/home/locobot/locobot_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/msg/__init__.py'...
+[23.720s] Compiling '/home/locobot/locobot_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/msg/_audio.py'...
+[23.721s] Compiling '/home/locobot/locobot_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/msg/_audio_data.py'...
+[23.721s] Compiling '/home/locobot/locobot_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/msg/_audio_info.py'...
+[23.721s] Compiling '/home/locobot/locobot_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/msg/_audio_stamped.py'...
+[23.729s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[23.730s] -- Set runtime path of "/home/locobot/locobot_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[23.730s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[23.731s] -- Set runtime path of "/home/locobot/locobot_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[23.731s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[23.732s] -- Set runtime path of "/home/locobot/locobot_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[23.732s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_generator_py.so
+[23.733s] -- Set runtime path of "/home/locobot/locobot_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_generator_py.so" to ""
+[23.733s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/share/audio_common_msgs/msg/AudioData.idl
+[23.734s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/share/audio_common_msgs/msg/AudioInfo.idl
+[23.734s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/share/audio_common_msgs/msg/Audio.idl
+[23.734s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/share/audio_common_msgs/msg/AudioStamped.idl
+[23.735s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/share/audio_common_msgs/action/TTS.idl
+[23.735s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/share/audio_common_msgs/msg/AudioData.msg
+[23.736s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/share/audio_common_msgs/msg/AudioInfo.msg
+[23.736s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/share/audio_common_msgs/msg/Audio.msg
+[23.737s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/share/audio_common_msgs/msg/AudioStamped.msg
+[23.737s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/share/audio_common_msgs/action/TTS.action
+[23.737s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/share/ament_index/resource_index/package_run_dependencies/audio_common_msgs
+[23.738s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/share/ament_index/resource_index/parent_prefix_path/audio_common_msgs
+[23.738s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/share/audio_common_msgs/environment/ament_prefix_path.sh
+[23.739s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/share/audio_common_msgs/environment/ament_prefix_path.dsv
+[23.739s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/share/audio_common_msgs/environment/path.sh
+[23.739s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/share/audio_common_msgs/environment/path.dsv
+[23.740s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/share/audio_common_msgs/local_setup.bash
+[23.740s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/share/audio_common_msgs/local_setup.sh
+[23.741s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/share/audio_common_msgs/local_setup.zsh
+[23.741s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/share/audio_common_msgs/local_setup.dsv
+[23.741s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/share/audio_common_msgs/package.dsv
+[23.742s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/share/ament_index/resource_index/packages/audio_common_msgs
+[23.742s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_generator_cExport.cmake
+[23.743s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_generator_cExport-noconfig.cmake
+[23.743s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[23.744s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[23.744s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_generator_cppExport.cmake
+[23.745s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[23.745s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[23.746s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_introspection_cExport.cmake
+[23.746s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[23.747s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_cExport.cmake
+[23.747s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[23.748s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[23.748s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[23.749s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_cppExport.cmake
+[23.749s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[23.750s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_generator_pyExport.cmake
+[23.750s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_generator_pyExport-noconfig.cmake
+[23.751s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/rosidl_cmake-extras.cmake
+[23.751s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[23.752s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[23.752s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[23.753s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[23.753s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[23.754s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[23.754s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgsConfig.cmake
+[23.754s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgsConfig-version.cmake
+[23.755s] -- Installing: /home/locobot/locobot_ws/install/audio_common_msgs/share/audio_common_msgs/package.xml
+[23.766s] Invoked command in '/home/locobot/locobot_ws/build/audio_common_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/locobot_ws/install/yolov8_ros:/home/locobot/locobot_ws/install/locobot_move:/home/locobot/locobot_ws/install/detection_ros:/home/locobot/locobot_ws/install/create3_teleop:/home/locobot/locobot_ws/install/create3_examples_py:/home/locobot/interbotix_ws/install/interbotix_xslocobot_control:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --install /home/locobot/locobot_ws/build/audio_common_msgs
