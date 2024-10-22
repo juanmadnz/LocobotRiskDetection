@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/locobot_move/locobot_move.egg-info/PKG-INFO
+../../build/locobot_move/locobot_move.egg-info/SOURCES.txt
+../../build/locobot_move/locobot_move.egg-info/dependency_links.txt
+../../build/locobot_move/locobot_move.egg-info/entry_points.txt
+../../build/locobot_move/locobot_move.egg-info/requires.txt
+../../build/locobot_move/locobot_move.egg-info/top_level.txt
+../../build/locobot_move/locobot_move.egg-info/zip-safe
+locobot_move/__init__.py
+locobot_move/locobot_node.py
+resource/locobot_move
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

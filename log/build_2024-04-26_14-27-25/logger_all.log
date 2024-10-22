@@ -1,0 +1,512 @@
+[0.093s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.093s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7098268f8f40>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x709826a41bd0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x709826a41bd0>>)
+[0.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.238s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.238s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/locobot/locobot_ws'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples) by extensions ['colcon_pkg']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples) by extension 'colcon_pkg'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples) by extensions ['colcon_meta']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples) by extension 'colcon_meta'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples) by extensions ['ros']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples) by extension 'ros'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples) by extensions ['cmake', 'python']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples) by extension 'cmake'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples) by extension 'python'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples) by extensions ['python_setup_py']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples) by extension 'python_setup_py'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_coverage) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_coverage) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_coverage) by extension 'ignore_ament_install'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_coverage) by extensions ['colcon_pkg']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_coverage) by extension 'colcon_pkg'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_coverage) by extensions ['colcon_meta']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_coverage) by extension 'colcon_meta'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_coverage) by extensions ['ros']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_coverage) by extension 'ros'
+[0.252s] DEBUG:colcon.colcon_core.package_identification:Package 'src/create3_examples/create3_coverage' with type 'ros.ament_cmake' and name 'create3_coverage'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_examples_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_examples_msgs) by extension 'ignore'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_examples_msgs) by extension 'ignore_ament_install'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_examples_msgs) by extensions ['colcon_pkg']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_examples_msgs) by extension 'colcon_pkg'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_examples_msgs) by extensions ['colcon_meta']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_examples_msgs) by extension 'colcon_meta'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_examples_msgs) by extensions ['ros']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_examples_msgs) by extension 'ros'
+[0.253s] DEBUG:colcon.colcon_core.package_identification:Package 'src/create3_examples/create3_examples_msgs' with type 'ros.ament_cmake' and name 'create3_examples_msgs'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_examples_py) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_examples_py) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_examples_py) by extension 'ignore_ament_install'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_examples_py) by extensions ['colcon_pkg']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_examples_py) by extension 'colcon_pkg'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_examples_py) by extensions ['colcon_meta']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_examples_py) by extension 'colcon_meta'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_examples_py) by extensions ['ros']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_examples_py) by extension 'ros'
+[0.254s] DEBUG:colcon.colcon_core.package_identification:Package 'src/create3_examples/create3_examples_py' with type 'ros.ament_python' and name 'create3_examples_py'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_lidar_slam) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_lidar_slam) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_lidar_slam) by extension 'ignore_ament_install'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_lidar_slam) by extensions ['colcon_pkg']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_lidar_slam) by extension 'colcon_pkg'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_lidar_slam) by extensions ['colcon_meta']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_lidar_slam) by extension 'colcon_meta'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_lidar_slam) by extensions ['ros']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_lidar_slam) by extension 'ros'
+[0.255s] DEBUG:colcon.colcon_core.package_identification:Package 'src/create3_examples/create3_lidar_slam' with type 'ros.ament_cmake' and name 'create3_lidar_slam'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_republisher) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_republisher) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_republisher) by extension 'ignore_ament_install'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_republisher) by extensions ['colcon_pkg']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_republisher) by extension 'colcon_pkg'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_republisher) by extensions ['colcon_meta']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_republisher) by extension 'colcon_meta'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_republisher) by extensions ['ros']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_republisher) by extension 'ros'
+[0.256s] DEBUG:colcon.colcon_core.package_identification:Package 'src/create3_examples/create3_republisher' with type 'ros.ament_cmake' and name 'create3_republisher'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_teleop) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_teleop) by extension 'ignore_ament_install'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_teleop) by extensions ['colcon_pkg']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_teleop) by extension 'colcon_pkg'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_teleop) by extensions ['colcon_meta']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_teleop) by extension 'colcon_meta'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_teleop) by extensions ['ros']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_teleop) by extension 'ros'
+[0.257s] DEBUG:colcon.colcon_core.package_identification:Package 'src/create3_examples/create3_teleop' with type 'ros.ament_python' and name 'create3_teleop'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/locobot_move) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/locobot_move) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/locobot_move) by extension 'ignore_ament_install'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/locobot_move) by extensions ['colcon_pkg']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/locobot_move) by extension 'colcon_pkg'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/locobot_move) by extensions ['colcon_meta']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/locobot_move) by extension 'colcon_meta'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/locobot_move) by extensions ['ros']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/locobot_move) by extension 'ros'
+[0.258s] DEBUG:colcon.colcon_core.package_identification:Package 'src/locobot_move' with type 'ros.ament_python' and name 'locobot_move'
+[0.258s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.258s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.258s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.258s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.258s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.291s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 52 installed packages in /home/locobot/interbotix_ws/install
+[0.291s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/locobot/apriltag_ws/install
+[0.293s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 352 installed packages in /opt/ros/humble
+[0.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'create3_examples_msgs' build argument 'cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'create3_examples_msgs' build argument 'cmake_target' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'create3_examples_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'create3_examples_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'create3_examples_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'create3_examples_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'create3_examples_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'create3_examples_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'create3_examples_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.338s] DEBUG:colcon.colcon_core.verb:Building package 'create3_examples_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/locobot/locobot_ws/build/create3_examples_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/locobot/locobot_ws/install/create3_examples_msgs', 'merge_install': False, 'path': '/home/locobot/locobot_ws/src/create3_examples/create3_examples_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'create3_examples_py' build argument 'cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'create3_examples_py' build argument 'cmake_target' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'create3_examples_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'create3_examples_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'create3_examples_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'create3_examples_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'create3_examples_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'create3_examples_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'create3_examples_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.338s] DEBUG:colcon.colcon_core.verb:Building package 'create3_examples_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/locobot/locobot_ws/build/create3_examples_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/locobot/locobot_ws/install/create3_examples_py', 'merge_install': False, 'path': '/home/locobot/locobot_ws/src/create3_examples/create3_examples_py', 'symlink_install': False, 'test_result_base': None}
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'create3_lidar_slam' build argument 'cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'create3_lidar_slam' build argument 'cmake_target' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'create3_lidar_slam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'create3_lidar_slam' build argument 'cmake_clean_cache' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'create3_lidar_slam' build argument 'cmake_clean_first' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'create3_lidar_slam' build argument 'cmake_force_configure' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'create3_lidar_slam' build argument 'ament_cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'create3_lidar_slam' build argument 'catkin_cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'create3_lidar_slam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.339s] DEBUG:colcon.colcon_core.verb:Building package 'create3_lidar_slam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/locobot/locobot_ws/build/create3_lidar_slam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/locobot/locobot_ws/install/create3_lidar_slam', 'merge_install': False, 'path': '/home/locobot/locobot_ws/src/create3_examples/create3_lidar_slam', 'symlink_install': False, 'test_result_base': None}
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'create3_republisher' build argument 'cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'create3_republisher' build argument 'cmake_target' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'create3_republisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'create3_republisher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'create3_republisher' build argument 'cmake_clean_first' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'create3_republisher' build argument 'cmake_force_configure' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'create3_republisher' build argument 'ament_cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'create3_republisher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'create3_republisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.339s] DEBUG:colcon.colcon_core.verb:Building package 'create3_republisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/locobot/locobot_ws/build/create3_republisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/locobot/locobot_ws/install/create3_republisher', 'merge_install': False, 'path': '/home/locobot/locobot_ws/src/create3_examples/create3_republisher', 'symlink_install': False, 'test_result_base': None}
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'create3_teleop' build argument 'cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'create3_teleop' build argument 'cmake_target' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'create3_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'create3_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'create3_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'create3_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'create3_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'create3_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'create3_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.340s] DEBUG:colcon.colcon_core.verb:Building package 'create3_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/locobot/locobot_ws/build/create3_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/locobot/locobot_ws/install/create3_teleop', 'merge_install': False, 'path': '/home/locobot/locobot_ws/src/create3_examples/create3_teleop', 'symlink_install': False, 'test_result_base': None}
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'locobot_move' build argument 'cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'locobot_move' build argument 'cmake_target' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'locobot_move' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'locobot_move' build argument 'cmake_clean_cache' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'locobot_move' build argument 'cmake_clean_first' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'locobot_move' build argument 'cmake_force_configure' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'locobot_move' build argument 'ament_cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'locobot_move' build argument 'catkin_cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'locobot_move' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.340s] DEBUG:colcon.colcon_core.verb:Building package 'locobot_move' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/locobot/locobot_ws/build/locobot_move', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/locobot/locobot_ws/install/locobot_move', 'merge_install': False, 'path': '/home/locobot/locobot_ws/src/locobot_move', 'symlink_install': False, 'test_result_base': None}
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'create3_coverage' build argument 'cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'create3_coverage' build argument 'cmake_target' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'create3_coverage' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'create3_coverage' build argument 'cmake_clean_cache' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'create3_coverage' build argument 'cmake_clean_first' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'create3_coverage' build argument 'cmake_force_configure' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'create3_coverage' build argument 'ament_cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'create3_coverage' build argument 'catkin_cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'create3_coverage' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.341s] DEBUG:colcon.colcon_core.verb:Building package 'create3_coverage' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/locobot/locobot_ws/build/create3_coverage', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/locobot/locobot_ws/install/create3_coverage', 'merge_install': False, 'path': '/home/locobot/locobot_ws/src/create3_examples/create3_coverage', 'symlink_install': False, 'test_result_base': None}
+[0.341s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.342s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.342s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/locobot/locobot_ws/src/create3_examples/create3_examples_msgs' with build type 'ament_cmake'
+[0.342s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/locobot/locobot_ws/src/create3_examples/create3_examples_msgs'
+[0.344s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.345s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.345s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.350s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/locobot/locobot_ws/src/create3_examples/create3_examples_py' with build type 'ament_python'
+[0.350s] Level 1:colcon.colcon_core.shell:create_environment_hook('create3_examples_py', 'ament_prefix_path')
+[0.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/locobot/locobot_ws/install/create3_examples_py/share/create3_examples_py/hook/ament_prefix_path.ps1'
+[0.351s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/locobot/locobot_ws/install/create3_examples_py/share/create3_examples_py/hook/ament_prefix_path.dsv'
+[0.351s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/locobot/locobot_ws/install/create3_examples_py/share/create3_examples_py/hook/ament_prefix_path.sh'
+[0.352s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.352s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.357s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/locobot/locobot_ws/src/create3_examples/create3_lidar_slam' with build type 'ament_cmake'
+[0.357s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/locobot/locobot_ws/src/create3_examples/create3_lidar_slam'
+[0.358s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.358s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.363s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/locobot/locobot_ws/src/create3_examples/create3_republisher' with build type 'ament_cmake'
+[0.363s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/locobot/locobot_ws/src/create3_examples/create3_republisher'
+[0.363s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.363s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.374s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/locobot/locobot_ws/build/create3_examples_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/locobot/locobot_ws/build/create3_examples_msgs -- -j4 -l4
+[0.754s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/locobot/locobot_ws/src/create3_examples/create3_examples_py'
+[0.755s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.755s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.764s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/locobot/locobot_ws/build/create3_lidar_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/locobot/locobot_ws/build/create3_lidar_slam -- -j4 -l4
+[0.770s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/locobot/locobot_ws/build/create3_republisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/locobot/locobot_ws/build/create3_republisher -- -j4 -l4
+[0.813s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/locobot/locobot_ws/build/create3_lidar_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/locobot/locobot_ws/build/create3_lidar_slam -- -j4 -l4
+[0.860s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/locobot/locobot_ws/build/create3_lidar_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --install /home/locobot/locobot_ws/build/create3_lidar_slam
+[0.866s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/locobot/locobot_ws/build/create3_republisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/locobot/locobot_ws/build/create3_republisher -- -j4 -l4
+[0.880s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(create3_lidar_slam)
+[0.882s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/locobot/locobot_ws/build/create3_lidar_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --install /home/locobot/locobot_ws/build/create3_lidar_slam
+[0.884s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_lidar_slam' for CMake module files
+[0.885s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_lidar_slam' for CMake config files
+[0.885s] Level 1:colcon.colcon_core.shell:create_environment_hook('create3_lidar_slam', 'cmake_prefix_path')
+[0.885s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/locobot/locobot_ws/install/create3_lidar_slam/share/create3_lidar_slam/hook/cmake_prefix_path.ps1'
+[0.886s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/locobot/locobot_ws/install/create3_lidar_slam/share/create3_lidar_slam/hook/cmake_prefix_path.dsv'
+[0.886s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/locobot/locobot_ws/install/create3_lidar_slam/share/create3_lidar_slam/hook/cmake_prefix_path.sh'
+[0.887s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_lidar_slam/bin'
+[0.887s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_lidar_slam/lib/pkgconfig/create3_lidar_slam.pc'
+[0.887s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_lidar_slam/lib/python3.10/site-packages'
+[0.888s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_lidar_slam/bin'
+[0.888s] INFO:colcon.colcon_core.shell:Creating package script '/home/locobot/locobot_ws/install/create3_lidar_slam/share/create3_lidar_slam/package.ps1'
+[0.890s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/locobot/locobot_ws/install/create3_lidar_slam/share/create3_lidar_slam/package.dsv'
+[0.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/locobot/locobot_ws/install/create3_lidar_slam/share/create3_lidar_slam/package.sh'
+[0.892s] INFO:colcon.colcon_core.shell:Creating package script '/home/locobot/locobot_ws/install/create3_lidar_slam/share/create3_lidar_slam/package.bash'
+[0.893s] INFO:colcon.colcon_core.shell:Creating package script '/home/locobot/locobot_ws/install/create3_lidar_slam/share/create3_lidar_slam/package.zsh'
+[0.894s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/locobot/locobot_ws/install/create3_lidar_slam/share/colcon-core/packages/create3_lidar_slam)
+[0.903s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/locobot/locobot_ws/build/create3_republisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --install /home/locobot/locobot_ws/build/create3_republisher
+[0.910s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/locobot/locobot_ws/build/create3_examples_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/locobot/locobot_ws/build/create3_examples_msgs -- -j4 -l4
+[0.917s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(create3_republisher)
+[0.918s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_republisher' for CMake module files
+[0.918s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_republisher' for CMake config files
+[0.919s] Level 1:colcon.colcon_core.shell:create_environment_hook('create3_republisher', 'cmake_prefix_path')
+[0.919s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/locobot/locobot_ws/install/create3_republisher/share/create3_republisher/hook/cmake_prefix_path.ps1'
+[0.920s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/locobot/locobot_ws/install/create3_republisher/share/create3_republisher/hook/cmake_prefix_path.dsv'
+[0.920s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/locobot/locobot_ws/install/create3_republisher/share/create3_republisher/hook/cmake_prefix_path.sh'
+[0.921s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_republisher/lib'
+[0.921s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_republisher/bin'
+[0.922s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_republisher/lib/pkgconfig/create3_republisher.pc'
+[0.922s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_republisher/lib/python3.10/site-packages'
+[0.922s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_republisher/bin'
+[0.923s] INFO:colcon.colcon_core.shell:Creating package script '/home/locobot/locobot_ws/install/create3_republisher/share/create3_republisher/package.ps1'
+[0.924s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/locobot/locobot_ws/build/create3_republisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --install /home/locobot/locobot_ws/build/create3_republisher
+[0.924s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/locobot/locobot_ws/install/create3_republisher/share/create3_republisher/package.dsv'
+[0.924s] INFO:colcon.colcon_core.shell:Creating package script '/home/locobot/locobot_ws/install/create3_republisher/share/create3_republisher/package.sh'
+[0.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/locobot/locobot_ws/install/create3_republisher/share/create3_republisher/package.bash'
+[0.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/locobot/locobot_ws/install/create3_republisher/share/create3_republisher/package.zsh'
+[0.925s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/locobot/locobot_ws/install/create3_republisher/share/colcon-core/packages/create3_republisher)
+[0.927s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(create3_lidar_slam)
+[0.928s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_lidar_slam' for CMake module files
+[0.928s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_lidar_slam' for CMake config files
+[0.929s] Level 1:colcon.colcon_core.shell:create_environment_hook('create3_lidar_slam', 'cmake_prefix_path')
+[0.929s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/locobot/locobot_ws/install/create3_lidar_slam/share/create3_lidar_slam/hook/cmake_prefix_path.ps1'
+[0.929s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/locobot/locobot_ws/install/create3_lidar_slam/share/create3_lidar_slam/hook/cmake_prefix_path.dsv'
+[0.930s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/locobot/locobot_ws/install/create3_lidar_slam/share/create3_lidar_slam/hook/cmake_prefix_path.sh'
+[0.930s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_lidar_slam/bin'
+[0.931s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_lidar_slam/lib/pkgconfig/create3_lidar_slam.pc'
+[0.931s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_lidar_slam/lib/python3.10/site-packages'
+[0.931s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_lidar_slam/bin'
+[0.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/locobot/locobot_ws/install/create3_lidar_slam/share/create3_lidar_slam/package.ps1'
+[0.932s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/locobot/locobot_ws/install/create3_lidar_slam/share/create3_lidar_slam/package.dsv'
+[0.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/locobot/locobot_ws/install/create3_lidar_slam/share/create3_lidar_slam/package.sh'
+[0.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/locobot/locobot_ws/install/create3_lidar_slam/share/create3_lidar_slam/package.bash'
+[0.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/locobot/locobot_ws/install/create3_lidar_slam/share/create3_lidar_slam/package.zsh'
+[0.935s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/locobot/locobot_ws/install/create3_lidar_slam/share/colcon-core/packages/create3_lidar_slam)
+[0.936s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/locobot/locobot_ws/src/create3_examples/create3_teleop' with build type 'ament_python'
+[0.936s] Level 1:colcon.colcon_core.shell:create_environment_hook('create3_teleop', 'ament_prefix_path')
+[0.936s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/locobot/locobot_ws/install/create3_teleop/share/create3_teleop/hook/ament_prefix_path.ps1'
+[0.937s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/locobot/locobot_ws/install/create3_teleop/share/create3_teleop/hook/ament_prefix_path.dsv'
+[0.937s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/locobot/locobot_ws/install/create3_teleop/share/create3_teleop/hook/ament_prefix_path.sh'
+[0.938s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.938s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.209s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/locobot/locobot_ws/src/create3_examples/create3_teleop'
+[1.209s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.209s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.216s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(create3_republisher)
+[1.216s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_republisher' for CMake module files
+[1.217s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_republisher' for CMake config files
+[1.217s] Level 1:colcon.colcon_core.shell:create_environment_hook('create3_republisher', 'cmake_prefix_path')
+[1.217s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/locobot/locobot_ws/install/create3_republisher/share/create3_republisher/hook/cmake_prefix_path.ps1'
+[1.218s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/locobot/locobot_ws/install/create3_republisher/share/create3_republisher/hook/cmake_prefix_path.dsv'
+[1.218s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/locobot/locobot_ws/install/create3_republisher/share/create3_republisher/hook/cmake_prefix_path.sh'
+[1.218s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_republisher/lib'
+[1.218s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_republisher/bin'
+[1.218s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_republisher/lib/pkgconfig/create3_republisher.pc'
+[1.219s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_republisher/lib/python3.10/site-packages'
+[1.219s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_republisher/bin'
+[1.219s] INFO:colcon.colcon_core.shell:Creating package script '/home/locobot/locobot_ws/install/create3_republisher/share/create3_republisher/package.ps1'
+[1.220s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/locobot/locobot_ws/install/create3_republisher/share/create3_republisher/package.dsv'
+[1.220s] INFO:colcon.colcon_core.shell:Creating package script '/home/locobot/locobot_ws/install/create3_republisher/share/create3_republisher/package.sh'
+[1.220s] INFO:colcon.colcon_core.shell:Creating package script '/home/locobot/locobot_ws/install/create3_republisher/share/create3_republisher/package.bash'
+[1.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/locobot/locobot_ws/install/create3_republisher/share/create3_republisher/package.zsh'
+[1.221s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/locobot/locobot_ws/install/create3_republisher/share/colcon-core/packages/create3_republisher)
+[1.224s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/locobot/locobot_ws/build/create3_examples_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --install /home/locobot/locobot_ws/build/create3_examples_msgs
+[1.225s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/locobot/locobot_ws/src/locobot_move' with build type 'ament_python'
+[1.225s] Level 1:colcon.colcon_core.shell:create_environment_hook('locobot_move', 'ament_prefix_path')
+[1.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/locobot/locobot_ws/install/locobot_move/share/locobot_move/hook/ament_prefix_path.ps1'
+[1.226s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/locobot/locobot_ws/install/locobot_move/share/locobot_move/hook/ament_prefix_path.dsv'
+[1.227s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/locobot/locobot_ws/src/create3_examples/create3_examples_py': PYTHONPATH=/home/locobot/locobot_ws/build/create3_examples_py/prefix_override:/home/locobot/locobot_ws/install/create3_examples_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/create3_examples_py build --build-base /home/locobot/locobot_ws/build/create3_examples_py/build install --record /home/locobot/locobot_ws/build/create3_examples_py/install.log --single-version-externally-managed install_data
+[1.227s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/locobot/locobot_ws/install/locobot_move/share/locobot_move/hook/ament_prefix_path.sh'
+[1.228s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.228s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.515s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/locobot/locobot_ws/src/locobot_move'
+[1.516s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.516s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.522s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(create3_examples_msgs)
+[1.523s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_examples_msgs' for CMake module files
+[1.523s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_examples_msgs' for CMake config files
+[1.524s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/locobot/locobot_ws/build/create3_examples_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --install /home/locobot/locobot_ws/build/create3_examples_msgs
+[1.524s] Level 1:colcon.colcon_core.shell:create_environment_hook('create3_examples_msgs', 'cmake_prefix_path')
+[1.524s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/locobot/locobot_ws/install/create3_examples_msgs/share/create3_examples_msgs/hook/cmake_prefix_path.ps1'
+[1.525s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/locobot/locobot_ws/install/create3_examples_msgs/share/create3_examples_msgs/hook/cmake_prefix_path.dsv'
+[1.525s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/locobot/locobot_ws/install/create3_examples_msgs/share/create3_examples_msgs/hook/cmake_prefix_path.sh'
+[1.525s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_examples_msgs/lib'
+[1.526s] Level 1:colcon.colcon_core.shell:create_environment_hook('create3_examples_msgs', 'ld_library_path_lib')
+[1.526s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/locobot/locobot_ws/install/create3_examples_msgs/share/create3_examples_msgs/hook/ld_library_path_lib.ps1'
+[1.526s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/locobot/locobot_ws/install/create3_examples_msgs/share/create3_examples_msgs/hook/ld_library_path_lib.dsv'
+[1.526s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/locobot/locobot_ws/install/create3_examples_msgs/share/create3_examples_msgs/hook/ld_library_path_lib.sh'
+[1.527s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_examples_msgs/bin'
+[1.527s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_examples_msgs/lib/pkgconfig/create3_examples_msgs.pc'
+[1.527s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_examples_msgs/lib/python3.10/site-packages'
+[1.527s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_examples_msgs/bin'
+[1.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/locobot/locobot_ws/install/create3_examples_msgs/share/create3_examples_msgs/package.ps1'
+[1.528s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/locobot/locobot_ws/install/create3_examples_msgs/share/create3_examples_msgs/package.dsv'
+[1.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/locobot/locobot_ws/install/create3_examples_msgs/share/create3_examples_msgs/package.sh'
+[1.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/locobot/locobot_ws/install/create3_examples_msgs/share/create3_examples_msgs/package.bash'
+[1.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/locobot/locobot_ws/install/create3_examples_msgs/share/create3_examples_msgs/package.zsh'
+[1.529s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/locobot/locobot_ws/install/create3_examples_msgs/share/colcon-core/packages/create3_examples_msgs)
+[1.628s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(create3_examples_msgs)
+[1.629s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_examples_msgs' for CMake module files
+[1.629s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_examples_msgs' for CMake config files
+[1.630s] Level 1:colcon.colcon_core.shell:create_environment_hook('create3_examples_msgs', 'cmake_prefix_path')
+[1.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/locobot/locobot_ws/install/create3_examples_msgs/share/create3_examples_msgs/hook/cmake_prefix_path.ps1'
+[1.631s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/locobot/locobot_ws/install/create3_examples_msgs/share/create3_examples_msgs/hook/cmake_prefix_path.dsv'
+[1.631s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/locobot/locobot_ws/install/create3_examples_msgs/share/create3_examples_msgs/hook/cmake_prefix_path.sh'
+[1.632s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_examples_msgs/lib'
+[1.632s] Level 1:colcon.colcon_core.shell:create_environment_hook('create3_examples_msgs', 'ld_library_path_lib')
+[1.633s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/locobot/locobot_ws/install/create3_examples_msgs/share/create3_examples_msgs/hook/ld_library_path_lib.ps1'
+[1.633s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/locobot/locobot_ws/install/create3_examples_msgs/share/create3_examples_msgs/hook/ld_library_path_lib.dsv'
+[1.633s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/locobot/locobot_ws/install/create3_examples_msgs/share/create3_examples_msgs/hook/ld_library_path_lib.sh'
+[1.634s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_examples_msgs/bin'
+[1.634s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_examples_msgs/lib/pkgconfig/create3_examples_msgs.pc'
+[1.634s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_examples_msgs/lib/python3.10/site-packages'
+[1.635s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_examples_msgs/bin'
+[1.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/locobot/locobot_ws/install/create3_examples_msgs/share/create3_examples_msgs/package.ps1'
+[1.636s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/locobot/locobot_ws/install/create3_examples_msgs/share/create3_examples_msgs/package.dsv'
+[1.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/locobot/locobot_ws/install/create3_examples_msgs/share/create3_examples_msgs/package.sh'
+[1.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/locobot/locobot_ws/install/create3_examples_msgs/share/create3_examples_msgs/package.bash'
+[1.638s] INFO:colcon.colcon_core.shell:Creating package script '/home/locobot/locobot_ws/install/create3_examples_msgs/share/create3_examples_msgs/package.zsh'
+[1.638s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/locobot/locobot_ws/install/create3_examples_msgs/share/colcon-core/packages/create3_examples_msgs)
+[1.639s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/locobot/locobot_ws/src/create3_examples/create3_coverage' with build type 'ament_cmake'
+[1.640s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/locobot/locobot_ws/src/create3_examples/create3_coverage'
+[1.640s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.640s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.663s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/locobot/locobot_ws/build/create3_coverage': AMENT_PREFIX_PATH=/home/locobot/locobot_ws/install/create3_examples_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/locobot_ws/install/create3_examples_msgs:/home/locobot/apriltag_ws/install/apriltag_ros:/home/locobot/interbotix_ws/install/interbotix_xslocobot_moveit:/home/locobot/interbotix_ws/install/interbotix_xslocobot_ros_control:/home/locobot/interbotix_ws/install/interbotix_xslocobot_nav:/home/locobot/interbotix_ws/install/interbotix_xslocobot_joy:/home/locobot/interbotix_ws/install/interbotix_xslocobot_control:/home/locobot/interbotix_ws/install/sllidar_ros2:/home/locobot/interbotix_ws/install/interbotix_ros_xsarms_examples:/home/locobot/interbotix_ws/install/interbotix_xsarm_moveit_interface:/home/locobot/interbotix_ws/install/interbotix_moveit_interface:/home/locobot/interbotix_ws/install/moveit_visual_tools:/home/locobot/interbotix_ws/install/irobot_create_ignition_sim:/home/locobot/interbotix_ws/install/irobot_create_ignition_bringup:/home/locobot/interbotix_ws/install/irobot_create_gazebo_sim:/home/locobot/interbotix_ws/install/irobot_create_gazebo_bringup:/home/locobot/interbotix_ws/install/irobot_create_common_bringup:/home/locobot/interbotix_ws/install/irobot_create_nodes:/home/locobot/interbotix_ws/install/irobot_create_ignition_toolbox:/home/locobot/interbotix_ws/install/irobot_create_gazebo_plugins:/home/locobot/interbotix_ws/install/irobot_create_toolbox:/home/locobot/interbotix_ws/install/irobot_create_ignition_plugins:/home/locobot/interbotix_ws/install/irobot_create_description:/home/locobot/interbotix_ws/install/irobot_create_control:/home/locobot/interbotix_ws/install/interbotix_xslocobot_sim:/home/locobot/interbotix_ws/install/interbotix_xslocobot_descriptions:/home/locobot/interbotix_ws/install/interbotix_ros_xsarms:/home/locobot/interbotix_ws/install/interbotix_xsarm_moveit:/home/locobot/interbotix_ws/install/interbotix_xsarm_sim:/home/locobot/interbotix_ws/install/interbotix_xsarm_ros_control:/home/locobot/interbotix_ws/install/interbotix_xsarm_puppet:/home/locobot/interbotix_ws/install/interbotix_xsarm_perception:/home/locobot/interbotix_ws/install/interbotix_xsarm_joy:/home/locobot/interbotix_ws/install/interbotix_xsarm_dual:/home/locobot/interbotix_ws/install/interbotix_xsarm_control:/home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions:/home/locobot/interbotix_ws/install/interbotix_xs_toolbox:/home/locobot/interbotix_ws/install/interbotix_xs_rviz:/home/locobot/interbotix_ws/install/interbotix_ros_xseries:/home/locobot/interbotix_ws/install/interbotix_xs_sdk:/home/locobot/interbotix_ws/install/interbotix_xs_ros_control:/home/locobot/interbotix_ws/install/interbotix_perception_toolbox:/home/locobot/interbotix_ws/install/interbotix_perception_pipelines:/home/locobot/interbotix_ws/install/interbotix_xs_msgs:/home/locobot/interbotix_ws/install/interbotix_xs_driver:/home/locobot/interbotix_ws/install/interbotix_tf_tools:/home/locobot/interbotix_ws/install/interbotix_perception_msgs:/home/locobot/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/locobot/interbotix_ws/install/interbotix_common_toolbox:/home/locobot/interbotix_ws/install/interbotix_common_sim:/home/locobot/interbotix_ws/install/dynamixel_workbench_toolbox:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble LD_LIBRARY_PATH=/home/locobot/locobot_ws/install/create3_examples_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/locobot/locobot_ws/install/create3_examples_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/locobot/locobot_ws/build/create3_coverage -- -j4 -l4
+[1.690s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_examples_py' for CMake module files
+[1.691s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_examples_py' for CMake config files
+[1.691s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_examples_py/lib'
+[1.691s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_examples_py/bin'
+[1.691s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_examples_py/lib/pkgconfig/create3_examples_py.pc'
+[1.692s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_examples_py/lib/python3.10/site-packages'
+[1.692s] Level 1:colcon.colcon_core.shell:create_environment_hook('create3_examples_py', 'pythonpath')
+[1.692s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/locobot/locobot_ws/install/create3_examples_py/share/create3_examples_py/hook/pythonpath.ps1'
+[1.693s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/locobot/locobot_ws/install/create3_examples_py/share/create3_examples_py/hook/pythonpath.dsv'
+[1.693s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/locobot/locobot_ws/install/create3_examples_py/share/create3_examples_py/hook/pythonpath.sh'
+[1.693s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/locobot/locobot_ws/src/create3_examples/create3_examples_py' returned '0': PYTHONPATH=/home/locobot/locobot_ws/build/create3_examples_py/prefix_override:/home/locobot/locobot_ws/install/create3_examples_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/create3_examples_py build --build-base /home/locobot/locobot_ws/build/create3_examples_py/build install --record /home/locobot/locobot_ws/build/create3_examples_py/install.log --single-version-externally-managed install_data
+[1.694s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_examples_py/bin'
+[1.694s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(create3_examples_py)
+[1.695s] INFO:colcon.colcon_core.shell:Creating package script '/home/locobot/locobot_ws/install/create3_examples_py/share/create3_examples_py/package.ps1'
+[1.695s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/locobot/locobot_ws/install/create3_examples_py/share/create3_examples_py/package.dsv'
+[1.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/locobot/locobot_ws/install/create3_examples_py/share/create3_examples_py/package.sh'
+[1.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/locobot/locobot_ws/install/create3_examples_py/share/create3_examples_py/package.bash'
+[1.697s] INFO:colcon.colcon_core.shell:Creating package script '/home/locobot/locobot_ws/install/create3_examples_py/share/create3_examples_py/package.zsh'
+[1.697s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/locobot/locobot_ws/install/create3_examples_py/share/colcon-core/packages/create3_examples_py)
+[1.775s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/locobot/locobot_ws/build/create3_coverage' returned '0': AMENT_PREFIX_PATH=/home/locobot/locobot_ws/install/create3_examples_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/locobot_ws/install/create3_examples_msgs:/home/locobot/apriltag_ws/install/apriltag_ros:/home/locobot/interbotix_ws/install/interbotix_xslocobot_moveit:/home/locobot/interbotix_ws/install/interbotix_xslocobot_ros_control:/home/locobot/interbotix_ws/install/interbotix_xslocobot_nav:/home/locobot/interbotix_ws/install/interbotix_xslocobot_joy:/home/locobot/interbotix_ws/install/interbotix_xslocobot_control:/home/locobot/interbotix_ws/install/sllidar_ros2:/home/locobot/interbotix_ws/install/interbotix_ros_xsarms_examples:/home/locobot/interbotix_ws/install/interbotix_xsarm_moveit_interface:/home/locobot/interbotix_ws/install/interbotix_moveit_interface:/home/locobot/interbotix_ws/install/moveit_visual_tools:/home/locobot/interbotix_ws/install/irobot_create_ignition_sim:/home/locobot/interbotix_ws/install/irobot_create_ignition_bringup:/home/locobot/interbotix_ws/install/irobot_create_gazebo_sim:/home/locobot/interbotix_ws/install/irobot_create_gazebo_bringup:/home/locobot/interbotix_ws/install/irobot_create_common_bringup:/home/locobot/interbotix_ws/install/irobot_create_nodes:/home/locobot/interbotix_ws/install/irobot_create_ignition_toolbox:/home/locobot/interbotix_ws/install/irobot_create_gazebo_plugins:/home/locobot/interbotix_ws/install/irobot_create_toolbox:/home/locobot/interbotix_ws/install/irobot_create_ignition_plugins:/home/locobot/interbotix_ws/install/irobot_create_description:/home/locobot/interbotix_ws/install/irobot_create_control:/home/locobot/interbotix_ws/install/interbotix_xslocobot_sim:/home/locobot/interbotix_ws/install/interbotix_xslocobot_descriptions:/home/locobot/interbotix_ws/install/interbotix_ros_xsarms:/home/locobot/interbotix_ws/install/interbotix_xsarm_moveit:/home/locobot/interbotix_ws/install/interbotix_xsarm_sim:/home/locobot/interbotix_ws/install/interbotix_xsarm_ros_control:/home/locobot/interbotix_ws/install/interbotix_xsarm_puppet:/home/locobot/interbotix_ws/install/interbotix_xsarm_perception:/home/locobot/interbotix_ws/install/interbotix_xsarm_joy:/home/locobot/interbotix_ws/install/interbotix_xsarm_dual:/home/locobot/interbotix_ws/install/interbotix_xsarm_control:/home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions:/home/locobot/interbotix_ws/install/interbotix_xs_toolbox:/home/locobot/interbotix_ws/install/interbotix_xs_rviz:/home/locobot/interbotix_ws/install/interbotix_ros_xseries:/home/locobot/interbotix_ws/install/interbotix_xs_sdk:/home/locobot/interbotix_ws/install/interbotix_xs_ros_control:/home/locobot/interbotix_ws/install/interbotix_perception_toolbox:/home/locobot/interbotix_ws/install/interbotix_perception_pipelines:/home/locobot/interbotix_ws/install/interbotix_xs_msgs:/home/locobot/interbotix_ws/install/interbotix_xs_driver:/home/locobot/interbotix_ws/install/interbotix_tf_tools:/home/locobot/interbotix_ws/install/interbotix_perception_msgs:/home/locobot/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/locobot/interbotix_ws/install/interbotix_common_toolbox:/home/locobot/interbotix_ws/install/interbotix_common_sim:/home/locobot/interbotix_ws/install/dynamixel_workbench_toolbox:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble LD_LIBRARY_PATH=/home/locobot/locobot_ws/install/create3_examples_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/locobot/locobot_ws/install/create3_examples_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/locobot/locobot_ws/build/create3_coverage -- -j4 -l4
+[1.812s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/locobot/locobot_ws/src/create3_examples/create3_teleop': PYTHONPATH=/home/locobot/locobot_ws/build/create3_teleop/prefix_override:/home/locobot/locobot_ws/install/create3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/create3_teleop build --build-base /home/locobot/locobot_ws/build/create3_teleop/build install --record /home/locobot/locobot_ws/build/create3_teleop/install.log --single-version-externally-managed install_data
+[1.831s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/locobot/locobot_ws/build/create3_coverage': AMENT_PREFIX_PATH=/home/locobot/locobot_ws/install/create3_examples_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/locobot_ws/install/create3_examples_msgs:/home/locobot/apriltag_ws/install/apriltag_ros:/home/locobot/interbotix_ws/install/interbotix_xslocobot_moveit:/home/locobot/interbotix_ws/install/interbotix_xslocobot_ros_control:/home/locobot/interbotix_ws/install/interbotix_xslocobot_nav:/home/locobot/interbotix_ws/install/interbotix_xslocobot_joy:/home/locobot/interbotix_ws/install/interbotix_xslocobot_control:/home/locobot/interbotix_ws/install/sllidar_ros2:/home/locobot/interbotix_ws/install/interbotix_ros_xsarms_examples:/home/locobot/interbotix_ws/install/interbotix_xsarm_moveit_interface:/home/locobot/interbotix_ws/install/interbotix_moveit_interface:/home/locobot/interbotix_ws/install/moveit_visual_tools:/home/locobot/interbotix_ws/install/irobot_create_ignition_sim:/home/locobot/interbotix_ws/install/irobot_create_ignition_bringup:/home/locobot/interbotix_ws/install/irobot_create_gazebo_sim:/home/locobot/interbotix_ws/install/irobot_create_gazebo_bringup:/home/locobot/interbotix_ws/install/irobot_create_common_bringup:/home/locobot/interbotix_ws/install/irobot_create_nodes:/home/locobot/interbotix_ws/install/irobot_create_ignition_toolbox:/home/locobot/interbotix_ws/install/irobot_create_gazebo_plugins:/home/locobot/interbotix_ws/install/irobot_create_toolbox:/home/locobot/interbotix_ws/install/irobot_create_ignition_plugins:/home/locobot/interbotix_ws/install/irobot_create_description:/home/locobot/interbotix_ws/install/irobot_create_control:/home/locobot/interbotix_ws/install/interbotix_xslocobot_sim:/home/locobot/interbotix_ws/install/interbotix_xslocobot_descriptions:/home/locobot/interbotix_ws/install/interbotix_ros_xsarms:/home/locobot/interbotix_ws/install/interbotix_xsarm_moveit:/home/locobot/interbotix_ws/install/interbotix_xsarm_sim:/home/locobot/interbotix_ws/install/interbotix_xsarm_ros_control:/home/locobot/interbotix_ws/install/interbotix_xsarm_puppet:/home/locobot/interbotix_ws/install/interbotix_xsarm_perception:/home/locobot/interbotix_ws/install/interbotix_xsarm_joy:/home/locobot/interbotix_ws/install/interbotix_xsarm_dual:/home/locobot/interbotix_ws/install/interbotix_xsarm_control:/home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions:/home/locobot/interbotix_ws/install/interbotix_xs_toolbox:/home/locobot/interbotix_ws/install/interbotix_xs_rviz:/home/locobot/interbotix_ws/install/interbotix_ros_xseries:/home/locobot/interbotix_ws/install/interbotix_xs_sdk:/home/locobot/interbotix_ws/install/interbotix_xs_ros_control:/home/locobot/interbotix_ws/install/interbotix_perception_toolbox:/home/locobot/interbotix_ws/install/interbotix_perception_pipelines:/home/locobot/interbotix_ws/install/interbotix_xs_msgs:/home/locobot/interbotix_ws/install/interbotix_xs_driver:/home/locobot/interbotix_ws/install/interbotix_tf_tools:/home/locobot/interbotix_ws/install/interbotix_perception_msgs:/home/locobot/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/locobot/interbotix_ws/install/interbotix_common_toolbox:/home/locobot/interbotix_ws/install/interbotix_common_sim:/home/locobot/interbotix_ws/install/dynamixel_workbench_toolbox:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble LD_LIBRARY_PATH=/home/locobot/locobot_ws/install/create3_examples_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/locobot/locobot_ws/install/create3_examples_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/locobot/locobot_ws/build/create3_coverage
+[1.846s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(create3_coverage)
+[1.847s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_coverage' for CMake module files
+[1.848s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/locobot/locobot_ws/build/create3_coverage' returned '0': AMENT_PREFIX_PATH=/home/locobot/locobot_ws/install/create3_examples_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/locobot_ws/install/create3_examples_msgs:/home/locobot/apriltag_ws/install/apriltag_ros:/home/locobot/interbotix_ws/install/interbotix_xslocobot_moveit:/home/locobot/interbotix_ws/install/interbotix_xslocobot_ros_control:/home/locobot/interbotix_ws/install/interbotix_xslocobot_nav:/home/locobot/interbotix_ws/install/interbotix_xslocobot_joy:/home/locobot/interbotix_ws/install/interbotix_xslocobot_control:/home/locobot/interbotix_ws/install/sllidar_ros2:/home/locobot/interbotix_ws/install/interbotix_ros_xsarms_examples:/home/locobot/interbotix_ws/install/interbotix_xsarm_moveit_interface:/home/locobot/interbotix_ws/install/interbotix_moveit_interface:/home/locobot/interbotix_ws/install/moveit_visual_tools:/home/locobot/interbotix_ws/install/irobot_create_ignition_sim:/home/locobot/interbotix_ws/install/irobot_create_ignition_bringup:/home/locobot/interbotix_ws/install/irobot_create_gazebo_sim:/home/locobot/interbotix_ws/install/irobot_create_gazebo_bringup:/home/locobot/interbotix_ws/install/irobot_create_common_bringup:/home/locobot/interbotix_ws/install/irobot_create_nodes:/home/locobot/interbotix_ws/install/irobot_create_ignition_toolbox:/home/locobot/interbotix_ws/install/irobot_create_gazebo_plugins:/home/locobot/interbotix_ws/install/irobot_create_toolbox:/home/locobot/interbotix_ws/install/irobot_create_ignition_plugins:/home/locobot/interbotix_ws/install/irobot_create_description:/home/locobot/interbotix_ws/install/irobot_create_control:/home/locobot/interbotix_ws/install/interbotix_xslocobot_sim:/home/locobot/interbotix_ws/install/interbotix_xslocobot_descriptions:/home/locobot/interbotix_ws/install/interbotix_ros_xsarms:/home/locobot/interbotix_ws/install/interbotix_xsarm_moveit:/home/locobot/interbotix_ws/install/interbotix_xsarm_sim:/home/locobot/interbotix_ws/install/interbotix_xsarm_ros_control:/home/locobot/interbotix_ws/install/interbotix_xsarm_puppet:/home/locobot/interbotix_ws/install/interbotix_xsarm_perception:/home/locobot/interbotix_ws/install/interbotix_xsarm_joy:/home/locobot/interbotix_ws/install/interbotix_xsarm_dual:/home/locobot/interbotix_ws/install/interbotix_xsarm_control:/home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions:/home/locobot/interbotix_ws/install/interbotix_xs_toolbox:/home/locobot/interbotix_ws/install/interbotix_xs_rviz:/home/locobot/interbotix_ws/install/interbotix_ros_xseries:/home/locobot/interbotix_ws/install/interbotix_xs_sdk:/home/locobot/interbotix_ws/install/interbotix_xs_ros_control:/home/locobot/interbotix_ws/install/interbotix_perception_toolbox:/home/locobot/interbotix_ws/install/interbotix_perception_pipelines:/home/locobot/interbotix_ws/install/interbotix_xs_msgs:/home/locobot/interbotix_ws/install/interbotix_xs_driver:/home/locobot/interbotix_ws/install/interbotix_tf_tools:/home/locobot/interbotix_ws/install/interbotix_perception_msgs:/home/locobot/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/locobot/interbotix_ws/install/interbotix_common_toolbox:/home/locobot/interbotix_ws/install/interbotix_common_sim:/home/locobot/interbotix_ws/install/dynamixel_workbench_toolbox:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble LD_LIBRARY_PATH=/home/locobot/locobot_ws/install/create3_examples_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/locobot/locobot_ws/install/create3_examples_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/locobot/locobot_ws/build/create3_coverage
+[1.848s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_coverage' for CMake config files
+[1.848s] Level 1:colcon.colcon_core.shell:create_environment_hook('create3_coverage', 'cmake_prefix_path')
+[1.849s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/locobot/locobot_ws/install/create3_coverage/share/create3_coverage/hook/cmake_prefix_path.ps1'
+[1.849s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/locobot/locobot_ws/install/create3_coverage/share/create3_coverage/hook/cmake_prefix_path.dsv'
+[1.850s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/locobot/locobot_ws/install/create3_coverage/share/create3_coverage/hook/cmake_prefix_path.sh'
+[1.850s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_coverage/lib'
+[1.850s] Level 1:colcon.colcon_core.shell:create_environment_hook('create3_coverage', 'ld_library_path_lib')
+[1.851s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/locobot/locobot_ws/install/create3_coverage/share/create3_coverage/hook/ld_library_path_lib.ps1'
+[1.851s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/locobot/locobot_ws/install/create3_coverage/share/create3_coverage/hook/ld_library_path_lib.dsv'
+[1.852s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/locobot/locobot_ws/install/create3_coverage/share/create3_coverage/hook/ld_library_path_lib.sh'
+[1.852s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_coverage/bin'
+[1.852s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_coverage/lib/pkgconfig/create3_coverage.pc'
+[1.852s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_coverage/lib/python3.10/site-packages'
+[1.853s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_coverage/bin'
+[1.853s] INFO:colcon.colcon_core.shell:Creating package script '/home/locobot/locobot_ws/install/create3_coverage/share/create3_coverage/package.ps1'
+[1.854s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/locobot/locobot_ws/install/create3_coverage/share/create3_coverage/package.dsv'
+[1.854s] INFO:colcon.colcon_core.shell:Creating package script '/home/locobot/locobot_ws/install/create3_coverage/share/create3_coverage/package.sh'
+[1.855s] INFO:colcon.colcon_core.shell:Creating package script '/home/locobot/locobot_ws/install/create3_coverage/share/create3_coverage/package.bash'
+[1.855s] INFO:colcon.colcon_core.shell:Creating package script '/home/locobot/locobot_ws/install/create3_coverage/share/create3_coverage/package.zsh'
+[1.856s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/locobot/locobot_ws/install/create3_coverage/share/colcon-core/packages/create3_coverage)
+[1.928s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(create3_coverage)
+[1.929s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_coverage' for CMake module files
+[1.930s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_coverage' for CMake config files
+[1.930s] Level 1:colcon.colcon_core.shell:create_environment_hook('create3_coverage', 'cmake_prefix_path')
+[1.930s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/locobot/locobot_ws/install/create3_coverage/share/create3_coverage/hook/cmake_prefix_path.ps1'
+[1.931s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/locobot/locobot_ws/install/create3_coverage/share/create3_coverage/hook/cmake_prefix_path.dsv'
+[1.931s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/locobot/locobot_ws/install/create3_coverage/share/create3_coverage/hook/cmake_prefix_path.sh'
+[1.932s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_coverage/lib'
+[1.932s] Level 1:colcon.colcon_core.shell:create_environment_hook('create3_coverage', 'ld_library_path_lib')
+[1.932s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/locobot/locobot_ws/install/create3_coverage/share/create3_coverage/hook/ld_library_path_lib.ps1'
+[1.932s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/locobot/locobot_ws/install/create3_coverage/share/create3_coverage/hook/ld_library_path_lib.dsv'
+[1.933s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/locobot/locobot_ws/install/create3_coverage/share/create3_coverage/hook/ld_library_path_lib.sh'
+[1.933s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_coverage/bin'
+[1.933s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_coverage/lib/pkgconfig/create3_coverage.pc'
+[1.934s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_coverage/lib/python3.10/site-packages'
+[1.934s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_coverage/bin'
+[1.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/locobot/locobot_ws/install/create3_coverage/share/create3_coverage/package.ps1'
+[1.935s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/locobot/locobot_ws/install/create3_coverage/share/create3_coverage/package.dsv'
+[1.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/locobot/locobot_ws/install/create3_coverage/share/create3_coverage/package.sh'
+[1.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/locobot/locobot_ws/install/create3_coverage/share/create3_coverage/package.bash'
+[1.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/locobot/locobot_ws/install/create3_coverage/share/create3_coverage/package.zsh'
+[1.937s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/locobot/locobot_ws/install/create3_coverage/share/colcon-core/packages/create3_coverage)
+[2.022s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/locobot/locobot_ws/src/locobot_move': PYTHONPATH=/home/locobot/locobot_ws/build/locobot_move/prefix_override:/home/locobot/locobot_ws/install/locobot_move/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/locobot_move build --build-base /home/locobot/locobot_ws/build/locobot_move/build install --record /home/locobot/locobot_ws/build/locobot_move/install.log --single-version-externally-managed install_data
+[2.112s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_teleop' for CMake module files
+[2.113s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/locobot/locobot_ws/src/create3_examples/create3_teleop' returned '0': PYTHONPATH=/home/locobot/locobot_ws/build/create3_teleop/prefix_override:/home/locobot/locobot_ws/install/create3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/create3_teleop build --build-base /home/locobot/locobot_ws/build/create3_teleop/build install --record /home/locobot/locobot_ws/build/create3_teleop/install.log --single-version-externally-managed install_data
+[2.113s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_teleop' for CMake config files
+[2.114s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_teleop/lib'
+[2.114s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_teleop/bin'
+[2.114s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_teleop/lib/pkgconfig/create3_teleop.pc'
+[2.114s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_teleop/lib/python3.10/site-packages'
+[2.114s] Level 1:colcon.colcon_core.shell:create_environment_hook('create3_teleop', 'pythonpath')
+[2.115s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/locobot/locobot_ws/install/create3_teleop/share/create3_teleop/hook/pythonpath.ps1'
+[2.115s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/locobot/locobot_ws/install/create3_teleop/share/create3_teleop/hook/pythonpath.dsv'
+[2.115s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/locobot/locobot_ws/install/create3_teleop/share/create3_teleop/hook/pythonpath.sh'
+[2.116s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/create3_teleop/bin'
+[2.116s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(create3_teleop)
+[2.117s] INFO:colcon.colcon_core.shell:Creating package script '/home/locobot/locobot_ws/install/create3_teleop/share/create3_teleop/package.ps1'
+[2.117s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/locobot/locobot_ws/install/create3_teleop/share/create3_teleop/package.dsv'
+[2.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/locobot/locobot_ws/install/create3_teleop/share/create3_teleop/package.sh'
+[2.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/locobot/locobot_ws/install/create3_teleop/share/create3_teleop/package.bash'
+[2.119s] INFO:colcon.colcon_core.shell:Creating package script '/home/locobot/locobot_ws/install/create3_teleop/share/create3_teleop/package.zsh'
+[2.119s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/locobot/locobot_ws/install/create3_teleop/share/colcon-core/packages/create3_teleop)
+[2.294s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/locobot_move' for CMake module files
+[2.294s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/locobot/locobot_ws/src/locobot_move' returned '0': PYTHONPATH=/home/locobot/locobot_ws/build/locobot_move/prefix_override:/home/locobot/locobot_ws/install/locobot_move/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/locobot_move build --build-base /home/locobot/locobot_ws/build/locobot_move/build install --record /home/locobot/locobot_ws/build/locobot_move/install.log --single-version-externally-managed install_data
+[2.295s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/locobot_move' for CMake config files
+[2.295s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/locobot_move/lib'
+[2.295s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/locobot_move/bin'
+[2.295s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/locobot_move/lib/pkgconfig/locobot_move.pc'
+[2.295s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/locobot_move/lib/python3.10/site-packages'
+[2.295s] Level 1:colcon.colcon_core.shell:create_environment_hook('locobot_move', 'pythonpath')
+[2.296s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/locobot/locobot_ws/install/locobot_move/share/locobot_move/hook/pythonpath.ps1'
+[2.296s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/locobot/locobot_ws/install/locobot_move/share/locobot_move/hook/pythonpath.dsv'
+[2.296s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/locobot/locobot_ws/install/locobot_move/share/locobot_move/hook/pythonpath.sh'
+[2.297s] Level 1:colcon.colcon_core.environment:checking '/home/locobot/locobot_ws/install/locobot_move/bin'
+[2.297s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(locobot_move)
+[2.297s] INFO:colcon.colcon_core.shell:Creating package script '/home/locobot/locobot_ws/install/locobot_move/share/locobot_move/package.ps1'
+[2.298s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/locobot/locobot_ws/install/locobot_move/share/locobot_move/package.dsv'
+[2.298s] INFO:colcon.colcon_core.shell:Creating package script '/home/locobot/locobot_ws/install/locobot_move/share/locobot_move/package.sh'
+[2.298s] INFO:colcon.colcon_core.shell:Creating package script '/home/locobot/locobot_ws/install/locobot_move/share/locobot_move/package.bash'
+[2.298s] INFO:colcon.colcon_core.shell:Creating package script '/home/locobot/locobot_ws/install/locobot_move/share/locobot_move/package.zsh'
+[2.299s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/locobot/locobot_ws/install/locobot_move/share/colcon-core/packages/locobot_move)
+[2.299s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.299s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.299s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.299s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.304s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.304s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.304s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.312s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.312s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/locobot/locobot_ws/install/local_setup.ps1'
+[2.313s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/locobot/locobot_ws/install/_local_setup_util_ps1.py'
+[2.314s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/locobot/locobot_ws/install/setup.ps1'
+[2.316s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/locobot/locobot_ws/install/local_setup.sh'
+[2.317s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/locobot/locobot_ws/install/_local_setup_util_sh.py'
+[2.317s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/locobot/locobot_ws/install/setup.sh'
+[2.319s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/locobot/locobot_ws/install/local_setup.bash'
+[2.320s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/locobot/locobot_ws/install/setup.bash'
+[2.322s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/locobot/locobot_ws/install/local_setup.zsh'
+[2.323s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/locobot/locobot_ws/install/setup.zsh'

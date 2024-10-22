@@ -1,0 +1,21 @@
+[0.839s] Invoking command in '/home/locobot/locobot_ws/src/create3_examples/create3_examples_py': PYTHONPATH=/home/locobot/locobot_ws/build/create3_examples_py/prefix_override:/home/locobot/locobot_ws/install/create3_examples_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/create3_examples_py build --build-base /home/locobot/locobot_ws/build/create3_examples_py/build install --record /home/locobot/locobot_ws/build/create3_examples_py/install.log --single-version-externally-managed install_data
+[1.094s] running egg_info
+[1.095s] writing ../../../build/create3_examples_py/create3_examples_py.egg-info/PKG-INFO
+[1.095s] writing dependency_links to ../../../build/create3_examples_py/create3_examples_py.egg-info/dependency_links.txt
+[1.095s] writing entry points to ../../../build/create3_examples_py/create3_examples_py.egg-info/entry_points.txt
+[1.095s] writing requirements to ../../../build/create3_examples_py/create3_examples_py.egg-info/requires.txt
+[1.096s] writing top-level names to ../../../build/create3_examples_py/create3_examples_py.egg-info/top_level.txt
+[1.097s] reading manifest file '../../../build/create3_examples_py/create3_examples_py.egg-info/SOURCES.txt'
+[1.098s] writing manifest file '../../../build/create3_examples_py/create3_examples_py.egg-info/SOURCES.txt'
+[1.098s] running build
+[1.098s] running build_py
+[1.099s] running install
+[1.099s] running install_lib
+[1.101s] running install_data
+[1.101s] running install_egg_info
+[1.102s] removing '/home/locobot/locobot_ws/install/create3_examples_py/lib/python3.10/site-packages/create3_examples_py-0.0.1-py3.10.egg-info' (and everything under it)
+[1.103s] Copying ../../../build/create3_examples_py/create3_examples_py.egg-info to /home/locobot/locobot_ws/install/create3_examples_py/lib/python3.10/site-packages/create3_examples_py-0.0.1-py3.10.egg-info
+[1.103s] running install_scripts
+[1.124s] Installing create3_dance script to /home/locobot/locobot_ws/install/create3_examples_py/lib/create3_examples_py
+[1.124s] writing list of installed files to '/home/locobot/locobot_ws/build/create3_examples_py/install.log'
+[1.247s] Invoked command in '/home/locobot/locobot_ws/src/create3_examples/create3_examples_py' returned '0': PYTHONPATH=/home/locobot/locobot_ws/build/create3_examples_py/prefix_override:/home/locobot/locobot_ws/install/create3_examples_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/create3_examples_py build --build-base /home/locobot/locobot_ws/build/create3_examples_py/build install --record /home/locobot/locobot_ws/build/create3_examples_py/install.log --single-version-externally-managed install_data

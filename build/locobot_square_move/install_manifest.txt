@@ -1,0 +1,15 @@
+/home/locobot/locobot_ws/install/locobot_square_move/share/ament_index/resource_index/package_run_dependencies/locobot_square_move
+/home/locobot/locobot_ws/install/locobot_square_move/share/ament_index/resource_index/parent_prefix_path/locobot_square_move
+/home/locobot/locobot_ws/install/locobot_square_move/share/locobot_square_move/environment/ament_prefix_path.sh
+/home/locobot/locobot_ws/install/locobot_square_move/share/locobot_square_move/environment/ament_prefix_path.dsv
+/home/locobot/locobot_ws/install/locobot_square_move/share/locobot_square_move/environment/path.sh
+/home/locobot/locobot_ws/install/locobot_square_move/share/locobot_square_move/environment/path.dsv
+/home/locobot/locobot_ws/install/locobot_square_move/share/locobot_square_move/local_setup.bash
+/home/locobot/locobot_ws/install/locobot_square_move/share/locobot_square_move/local_setup.sh
+/home/locobot/locobot_ws/install/locobot_square_move/share/locobot_square_move/local_setup.zsh
+/home/locobot/locobot_ws/install/locobot_square_move/share/locobot_square_move/local_setup.dsv
+/home/locobot/locobot_ws/install/locobot_square_move/share/locobot_square_move/package.dsv
+/home/locobot/locobot_ws/install/locobot_square_move/share/ament_index/resource_index/packages/locobot_square_move
+/home/locobot/locobot_ws/install/locobot_square_move/share/locobot_square_move/cmake/locobot_square_moveConfig.cmake
+/home/locobot/locobot_ws/install/locobot_square_move/share/locobot_square_move/cmake/locobot_square_moveConfig-version.cmake
+/home/locobot/locobot_ws/install/locobot_square_move/share/locobot_square_move/package.xml
